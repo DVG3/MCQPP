@@ -5,5 +5,5 @@ const tests = [
 "Mô/Mô thần kinh.json",
 "Phôi/Phôi tuần 3-4 - đề 1.json",
 "Phôi/Phôi tuần 3-4 - đề 2.json",
-"GPB/TT + RLTN TH - Vận dụng cao.json",
+"GPB/TT + RLTN TH - Vận dụng cao.json"
 ];
