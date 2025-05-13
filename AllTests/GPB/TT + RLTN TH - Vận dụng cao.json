@@ -1,0 +1,124 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Bệnh nhân nam 60 tuổi, tiền sử tăng huyết áp không điều trị đều. Khám lâm sàng thấy tim to, X-quang ngực cho thấy bóng tim lớn. Siêu âm tim ghi nhận thành thất trái dày đáng kể. Thay đổi nào ở tế bào cơ tim của bệnh nhân này là phù hợp nhất?",
+      "Choices": ["Teo đét tế bào", "Phì đại tế bào", "Tăng sản tế bào", "Chuyển sản tế bào"],
+      "Ans": 1,
+      "Explantion": "Tăng huyết áp gây tăng gánh nặng cho thất trái, dẫn đến phì đại tế bào cơ tim để thích nghi. "
+    },
+    {
+      "Question": "Một phụ nữ 70 tuổi, bị liệt nửa người sau tai biến mạch máu não cách đây 2 năm. Khám thấy cơ ở chi bị liệt teo nhỏ rõ rệt so với bên lành. Hình thái tổn thương tế bào cơ ở chi liệt của bệnh nhân này là gì?",
+      "Choices": ["Phì đại tế bào", "Teo đét tế bào", "Nghịch sản tế bào", "Tăng sản tế bào"],
+      "Ans": 1,
+      "Explantion": "Liệt do tổn thương thần kinh dẫn đến giảm hoạt động của cơ, gây teo đét tế bào cơ do giảm chuyển hóa và giảm sinh chất trong bào tương. "
+    },
+    {
+      "Question": "Bệnh nhân nam 55 tuổi, hút thuốc lá 30 gói-năm, đến khám vì ho khan kéo dài. Nội soi phế quản ghi nhận niêm mạc phế quản có vùng biến đổi, sinh thiết cho thấy tế bào trụ có lông chuyển được thay thế bằng tế bào gai (vảy). Đây là biểu hiện của hình thái thích nghi nào?",
+      "Choices": ["Tăng sản", "Nghịch sản", "Chuyển sản", "Phì đại"],
+      "Ans": 2,
+      "Explantion": "Hút thuốc lá là yếu tố kích thích mạn tính, gây chuyển sản gai (biểu mô vảy) của tế bào biểu mô trụ ở phế quản. Đây là sự thay đổi hình thái và chức năng của tế bào đã trưởng thành sang một loại tế bào trưởng thành khác. "
+    },
+    {
+      "Question": "Một phụ nữ 40 tuổi, kết quả xét nghiệm Pap's smear (phết tế bào cổ tử cung) cho thấy có các tế bào bất thường, nhân to, không đều, tăng sắc, tỷ lệ nhân/bào tương tăng, nhưng chưa xâm nhập màng đáy. Tổn thương này được gọi là gì?",
+      "Choices": ["Chuyển sản cổ tử cung", "Nghịch sản cổ tử cung", "Ung thư cổ tử cung tại chỗ", "Viêm cổ tử cung"],
+      "Ans": 1,
+      "Explantion": "Nghịch sản là sự thay đổi hình thái và cấu trúc tế bào, có các đặc điểm như nhân to, không đều, tăng sắc, được coi là tổn thương tiền ung thư. "
+    },
+    {
+      "Question": "Bệnh nhân nam 65 tuổi, mắc bệnh lao phổi tiến triển. Trên phim X-quang phổi có hình ảnh hang lao, xét nghiệm đờm AFB (+). Đại thể tổn thương ở phổi có vùng hoại tử màu trắng vàng, mềm, bở như bã đậu. Đây là loại hoại tử nào?",
+      "Choices": ["Hoại tử đông", "Hoại tử lỏng", "Hoại tử mỡ", "Hoại tử bã đậu"],
+      "Ans": 3,
+      "Explantion": "Hoại tử bã đậu là đặc trưng của bệnh lao, vùng hoại tử có màu trắng vàng, dạng cheese hoặc bã đậu, không còn cấu trúc mô học. "
+    },
+    {
+      "Question": "Bệnh nhân nam 50 tuổi, nhập viện vì đau ngực dữ dội sau xương ức, lan lên vai trái. ECG và men tim cho thấy nhồi máu cơ tim cấp. Nếu bệnh nhân tử vong, khám nghiệm tử thi vùng cơ tim bị nhồi máu sau 24 giờ sẽ có đặc điểm hoại tử chủ yếu nào?",
+      "Choices": ["Hoại tử lỏng", "Hoại tử đông", "Hoại tử bã đậu", "Hoại tử mỡ"],
+      "Ans": 1,
+      "Explantion": "Nhồi máu cơ tim do thiếu máu cục bộ đột ngột gây ra hoại tử đông, ổ hoại tử giữ nguyên cấu trúc, màu trắng xám, khô rắn. "
+    },
+    {
+      "Question": "Bệnh nhân nữ 45 tuổi, bị suy tim sung huyết nặng, có biểu hiện phù toàn thân, đặc biệt là ở hai chi dưới. Nguyên nhân chính gây phù ở bệnh nhân này là gì?",
+      "Choices": ["Tăng áp lực thẩm thấu huyết tương", "Giảm áp lực thủy tĩnh mao mạch", "Tăng áp lực thủy tĩnh mao mạch", "Tổn thương thành mạch"],
+      "Ans": 2,
+      "Explantion": "Suy tim sung huyết làm giảm khả năng bơm máu của tim, gây ứ máu ở tĩnh mạch và mao mạch, dẫn đến tăng áp lực thủy tĩnh mao mạch, đẩy dịch ra khoảng kẽ gây phù. "
+    },
+    {
+      "Question": "Bệnh nhân nam 70 tuổi, có tiền sử rung nhĩ, đột ngột yếu nửa người phải và nói khó. Chụp CT sọ não có hình ảnh nhồi máu não. Nguyên nhân gây tắc mạch não ở bệnh nhân này có khả năng cao nhất là gì?",
+      "Choices": ["Huyết tắc do mảnh xơ vữa", "Huyết tắc do huyết khối từ tim", "Huyết tắc khí", "Huyết tắc mỡ"],
+      "Ans": 1,
+      "Explantion": "Rung nhĩ tạo điều kiện hình thành cục huyết khối trong buồng tim. Cục huyết khối này có thể bong ra, di chuyển theo dòng máu lên não gây huyết tắc động mạch não và nhồi máu não. "
+    },
+    {
+      "Question": "Một công nhân hầm mỏ 50 tuổi, làm việc nhiều năm trong môi trường nhiều bụi than. Khám sức khỏe định kỳ phát hiện các nốt mờ ở phổi trên X-quang. Sinh thiết phổi cho thấy các đại thực bào chứa đầy các hạt sắc tố màu đen. Đây là hiện tượng ứ đọng nội bào của chất nào?",
+      "Choices": ["Hemosiderin", "Melanin", "Lipofuscin", "Bụi than (ngoại tạo)"],
+      "Ans": 3,
+      "Explantion": "Bụi than là một chất ngoại tạo, khi hít vào phổi sẽ bị các đại thực bào phế nang thực bào và ứ đọng lại, gây bệnh phổi do than. "
+    },
+    {
+      "Question": "Bệnh nhân nữ 30 tuổi, bị rong kinh kéo dài nhiều tháng. Xét nghiệm máu thấy thiếu máu nhược sắc hồng cầu nhỏ. Nguyên nhân thiếu máu ở bệnh nhân này liên quan đến sự mất mát kéo dài của chất nào sau đây?",
+      "Choices": ["Glycogen", "Sắt (Hemosiderin)", "Cholesterol", "Protein"],
+      "Ans": 1,
+      "Explantion": "Chảy máu mạn tính (rong kinh) dẫn đến mất sắt kéo dài, gây thiếu máu thiếu sắt, đặc trưng bởi hồng cầu nhỏ, nhược sắc. Hemosiderin là một dạng dự trữ sắt. "
+    },
+    {
+      "Question": "Bệnh nhân nam 60 tuổi, nghiện rượu nặng, nhập viện vì đau bụng thượng vị dữ dội, nôn nhiều. Xét nghiệm amylase máu tăng cao. Siêu âm bụng thấy tụy phù nề, có vùng hoại tử. Nếu có hoại tử mỡ ở tụy, tổn thương này có đặc điểm gì?",
+      "Choices": ["Vùng hoại tử khô, rắn, màu trắng xám", "Vùng hoại tử mềm, nhão, màu vàng trắng, có thể có hiện tượng xà phòng hóa", "Vùng hoại tử màu trắng vàng, bở như bã đậu", "Vùng hoại tử lỏng, chứa đầy mủ"],
+      "Ans": 1,
+      "Explantion": "Hoại tử mỡ trong viêm tụy cấp do giải phóng enzyme tụy, tiêu hủy mô mỡ, tạo thành các vùng màu vàng trắng, mềm nhão, có thể có hiện tượng xà phòng hóa do phản ứng của acid béo với calci. "
+    },
+    {
+      "Question": "Bệnh nhân nữ 25 tuổi, mang thai lần đầu, trong quá trình chuyển dạ đột ngột khó thở dữ dội, tím tái, tụt huyết áp và tử vong nhanh chóng. Khám nghiệm tử thi phát hiện có tế bào gai, lông tơ của thai nhi trong động mạch phổi. Nguyên nhân tử vong có khả năng cao nhất là gì?",
+      "Choices": ["Huyết tắc do huyết khối", "Huyết tắc khí", "Huyết tắc nước ối", "Huyết tắc mỡ"],
+      "Ans": 2,
+      "Explantion": "Huyết tắc nước ối là một biến chứng sản khoa hiếm gặp nhưng rất nặng, xảy ra khi dịch ối và các thành phần của thai nhi (tế bào gai, lông tơ) đi vào tuần hoàn mẹ, gây tắc mạch phổi và phản ứng phản vệ. "
+    },
+    {
+      "Question": "Bệnh nhân nam 68 tuổi, nhập viện vì đau bụng cấp, bụng chướng, bí trung đại tiện. X-quang bụng không chuẩn bị có hình ảnh mức nước mức hơi. Nội soi ổ bụng phát hiện một đoạn ruột non tím đen, hoại tử. Loại nhồi máu nào có khả năng xảy ra ở ruột bệnh nhân này?",
+      "Choices": ["Nhồi máu trắng", "Nhồi máu đỏ", "Nhồi máu dạng hạt cau", "Nhồi máu bã đậu"],
+      "Ans": 1,
+      "Explantion": "Nhồi máu ruột thường là nhồi máu đỏ do ruột được nuôi dưỡng bởi hệ thống mạch bên phong phú, khi tắc động mạch chính, máu vẫn có thể đến từ các nhánh bên gây xuất huyết trong vùng nhồi máu. "
+    },
+    {
+      "Question": "Một người đàn ông 75 tuổi, gầy yếu, suy kiệt do ung thư giai đoạn cuối. Khám nghiệm tử thi thấy tim nhỏ lại, có các hạt sắc tố màu nâu vàng ứ đọng trong bào tương tế bào cơ tim. Đây là loại sắc tố nào?",
+      "Choices": ["Melanin", "Hemosiderin", "Lipofuscin", "Bilirubin"],
+      "Ans": 2,
+      "Explantion": "Lipofuscin là sắc tố 'hao mòn', ứ đọng trong tế bào của người già hoặc người suy kiệt, đói ăn lâu ngày, đặc biệt ở gan, tim. "
+    },
+    {
+      "Question": "Bệnh nhân nữ 50 tuổi, bị bệnh van hai lá hậu thấp, dẫn đến suy tim phải. Khám thấy gan to, bờ tù, mặt nhẵn. Hình ảnh đại thể của gan trong trường hợp này thường được mô tả là gì?",
+      "Choices": ["Gan nhiễm mỡ", "Gan hạt cau", "Gan xơ hóa", "Gan hoại tử"],
+      "Ans": 1,
+      "Explantion": "Suy tim phải gây sung huyết tĩnh mạch gan kéo dài, dẫn đến hình ảnh 'gan hạt cau' do vùng trung tâm tiểu thùy bị hoại tử, xuất huyết (đỏ nâu), còn vùng ngoại vi tế bào gan còn bình thường hoặc thoái hóa mỡ (vàng). "
+    },
+    {
+      "Question": "Bệnh nhân nam 40 tuổi, bị gãy xương đùi do tai nạn giao thông. Sau 48 giờ, bệnh nhân đột ngột khó thở, lơ mơ, xuất hiện các chấm xuất huyết trên da. Hội chứng nào có khả năng xảy ra nhất ở bệnh nhân này?",
+      "Choices": ["Huyết tắc phổi do huyết khối", "Huyết tắc khí", "Hội chứng tắc mạch mỡ", "Nhồi máu cơ tim"],
+      "Ans": 2,
+      "Explantion": "Gãy xương lớn như xương đùi có thể giải phóng các hạt mỡ vào tuần hoàn, gây hội chứng tắc mạch mỡ, biểu hiện ở phổi (khó thở), não (lơ mơ) và da (chấm xuất huyết). "
+    },
+    {
+      "Question": "Một phụ nữ 35 tuổi, sử dụng corticoid kéo dài để điều trị bệnh lupus ban đỏ hệ thống. Khám thấy mặt tròn như mặt trăng, tăng cân, teo cơ ở gốc chi. Sự thay đổi ở vỏ thượng thận của bệnh nhân này có thể là gì?",
+      "Choices": ["Phì đại vỏ thượng thận", "Tăng sản vỏ thượng thận", "Teo đét vỏ thượng thận", "Nghịch sản vỏ thượng thận"],
+      "Ans": 2,
+      "Explantion": "Sử dụng corticoid ngoại sinh kéo dài sẽ ức chế trục dưới đồi - tuyến yên - thượng thận, làm giảm sản xuất ACTH, dẫn đến teo đét vỏ thượng thận. "
+    },
+    {
+      "Question": "Bệnh nhân nam 65 tuổi, có tiền sử xơ vữa động mạch, nhập viện vì đau dữ dội ở chân trái khi đi lại, đỡ khi nghỉ (đau cách hồi). Khám thấy mạch mu chân trái yếu, da chân lạnh và nhợt nhạt. Tổn thương mạch máu nào có khả năng cao nhất gây ra triệu chứng này?",
+      "Choices": ["Viêm tĩnh mạch sâu", "Phình động mạch chủ bụng", "Hẹp/tắc động mạch chi dưới do xơ vữa", "Huyết khối tĩnh mạch nông"],
+      "Ans": 2,
+      "Explantion": "Xơ vữa động mạch gây hẹp lòng mạch, giảm lưu lượng máu đến chi dưới, đặc biệt khi vận động, gây thiếu máu cục bộ và đau cách hồi. Đây là biểu hiện của lấp động mạch do xơ vữa. "
+    },
+    {
+      "Question": "Trong một ổ viêm dạng hạt (granuloma) ở bệnh nhân lao phổi, ngoài các tế bào lympho và đại thực bào biến đổi (tế bào bán liên, tế bào khổng lồ Langhans), trung tâm ổ viêm thường có loại hoại tử nào?",
+      "Choices": ["Hoại tử đông", "Hoại tử lỏng", "Hoại tử bã đậu", "Hoại tử mỡ"],
+      "Ans": 2,
+      "Explantion": "Ổ viêm dạng hạt trong bệnh lao thường có hoại tử bã đậu ở trung tâm, được bao quanh bởi các tế bào viêm mạn tính. "
+    },
+    {
+      "Question": "Bệnh nhân nữ 28 tuổi, tử cung bình thường (không mang thai). Sau đó, bệnh nhân mang thai đủ tháng. So sánh kích thước tế bào cơ tử cung trước và trong khi mang thai, sự thay đổi chính là gì?",
+      "Choices": ["Teo đét tế bào cơ tử cung", "Tăng sản tế bào cơ tử cung", "Phì đại tế bào cơ tử cung", "Chuyển sản tế bào cơ tử cung"],
+      "Ans": 2,
+      "Explantion": "Trong quá trình mang thai, tử cung to ra chủ yếu do phì đại sinh lý các tế bào cơ trơn tử cung dưới tác động của hormone estrogen. "
+    }
+  ]
+}
