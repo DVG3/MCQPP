@@ -107,7 +107,7 @@
         "Sản xuất tế bào máu",
         "Dẫn truyền thông tin"
       ],
-      "Ans": 1,
+      "Ans":1,
       "Explantion": "Mô mỡ chủ yếu được tạo thành từ các tế bào mỡ, có chức năng dự trữ năng lượng, bảo vệ các cơ quan và cách nhiệt cho cơ thể. [cite: 39]"
     },
     {
@@ -140,7 +140,7 @@
         "Chứa sợi chun trong chất nền",
         "Không có tế bào sụn"
       ],
-      "Ans": 3,
+      "Ans": 2,
       "Explantion": "Sụn chun có đặc điểm là chứa các sợi chun trong chất nền, tạo nên tính đàn hồi cho các cấu trúc như vành tai và nắp thanh quản. [cite: 46]"
     },
     {
@@ -151,7 +151,7 @@
         "Liên kết sụn với xương",
         "Tạo ra dịch khớp bôi trơn"
       ],
-      "Ans": 1,
+      "Ans": 0,
       "Explantion": "Màng sụn là một lớp mô liên kết bao quanh sụn, có vai trò quan trọng trong việc nuôi dưỡng và tái tạo sụn. [cite: 48]"
     },
      {
@@ -173,7 +173,7 @@
         "Các tế bào trung mô biệt hóa thành tế bào sụn",
         "Sự lắng đọng chất nền sụn từ bên ngoài"
       ],
-      "Ans": 2,
+      "Ans": 1,
       "Explantion": "Sinh sản gian bào là quá trình tế bào sụn phân chia bên trong ổ sụn, làm tăng kích thước của sụn từ bên trong. [cite: 51]"
     },
     {
@@ -184,7 +184,7 @@
         "Canxi cacbonat",
         "Canxi photphat"
       ],
-      "Ans": 4,
+      "Ans": 3,
       "Explantion": "Chất nền xương có thành phần vô cơ chủ yếu là canxi photphat, tạo nên độ cứng chắc cho xương. [cite: 52]"
     },
     {
@@ -195,7 +195,7 @@
         "Ống tủy",
         "Màng xương"
       ],
-      "Ans": 2,
+      "Ans": 1,
       "Explantion": "Hệ thống Havers là đơn vị cấu trúc hình trụ đặc trưng của xương đặc, bao gồm các lá xương xếp vòng quanh ống Havers. [cite: 53]"
     },
     {
@@ -206,7 +206,7 @@
         "Hủy cốt bào",
         "Nguyên bào sụn"
       ],
-      "Ans": 3,
+      "Ans": 2,
       "Explantion": "Hủy cốt bào là tế bào lớn, đa nhân, có vai trò phá hủy và tái hấp thu chất nền xương trong quá trình tu sửa xương. [cite: 62]"
     },
     {
@@ -217,7 +217,7 @@
         "Tham gia vào quá trình tăng trưởng và sửa chữa xương",
         "Tất cả các chức năng trên"
       ],
-      "Ans": 4,
+      "Ans": 3,
       "Explantion": "Màng xương là một lớp mô liên kết bao phủ bên ngoài xương, có nhiều chức năng quan trọng đối với sự sống còn và phát triển của xương. [cite: 65]"
     },
     {
@@ -228,7 +228,7 @@
         "Tạo ra chất nền xương",
         "Điều hòa nồng độ canxi trong máu"
       ],
-      "Ans": 2,
+      "Ans": 1,
       "Explantion": "Tủy xương nằm trong các hốc của xương, là nơi sản xuất ra các tế bào máu. [cite: 67]"
     },
     {
@@ -239,7 +239,7 @@
         "Xương ngắn",
         "Sụn khớp"
       ],
-      "Ans": 2,
+      "Ans": 1,
       "Explantion": "Quá trình tạo xương từ mô liên kết kiểu màng xảy ra chủ yếu ở các xương dẹt như xương sọ. [cite: 70]"
     },
     {
@@ -250,7 +250,7 @@
         "Bảo vệ đầu xương",
         "Tạo ra dịch khớp"
       ],
-      "Ans": 2,
+      "Ans": 0,
       "Explantion": "Sụn nối là một dải sụn nằm giữa đầu và thân xương dài, cho phép xương dài ra trong suốt thời kỳ tăng trưởng. [cite: 74]"
     },
     {
@@ -261,7 +261,7 @@
         "Tạo ra các tế bào máu",
         "Bảo vệ tủy xương"
       ],
-      "Ans": 1,
+      "Ans": 0,
       "Explantion": "Hệ thống Havers là các kênh vi mô trong xương đặc, chứa mạch máu và thần kinh, đảm bảo cung cấp dinh dưỡng và oxy cho các tế bào xương. [cite: 53]"
     },
     {
@@ -272,7 +272,7 @@
         "Hormone",
         "Tất cả các yếu tố trên"
       ],
-      "Ans": 4,
+      "Ans": 3,
       "Explantion": "Sự phát triển của xương chịu ảnh hưởng của nhiều yếu tố khác nhau, bao gồm di truyền, dinh dưỡng, hormone và vận động. [cite: 80]"
     }
   ]

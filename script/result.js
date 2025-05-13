@@ -1,6 +1,41 @@
+const data = JSON.parse(localStorage.getItem("quizResult"));
+document.getElementById("score").innerText = `Bạn đúng ${data.score}/${data.total} câu`;
+
+const review = document.getElementById("results");
+data.answers.forEach((q, index) => {
+  const div = document.createElement("div");
+  div.innerHTML = `<h2>Câu ${index + 1}: ${q.question}</h2>`;
+  div.className = `p-5 my-5 rounded border `;//${isCorrect ?  : }`;
+
+  q.choices.forEach((choice, i) => {
+    let wro = false;
+    const span = document.createElement("div");
+    span.textContent = choice;
+    span.className =`p-4 my-2 rounded border `;
+    if (i === q.correctAnswer) span.style.background = "lightgreen";
+    if (i === q.selected && i !== q.correctAnswer) 
+      {
+        span.style.background = "salmon";
+        div.className += 'bg-red-100 border-red-400';
+        wro = true;
+      }
+    if (!wro)
+    {
+        div.className += 'bg-green-100 border-green-400';
+
+    }
+    div.appendChild(span);
+  });
+  const exp = document.createElement("p");
+  exp.innerText = "Giải thích: " + q.explanation;
+  exp.className = "text-sm text-gray-600 mt-2";
+  div.appendChild(exp);
+  review.appendChild(div);
+});
+
 function renderResults() {
   const container = document.getElementById("results");
-  const userAnswers = JSON.parse(localStorage.getItem("userAnswers") || "[]");
+  const userAnswers = data.answers;
   const questions = JSON.parse(localStorage.getItem("questions") || "[]");
 
   let correctCount = 0;
@@ -30,3 +65,4 @@ function renderResults() {
   // Hiển thị tổng kết
   document.getElementById("score").textContent = `🎯 Số câu đúng: ${correctCount}/${questions.length}`;
 }
+//renderResults()
