@@ -1,0 +1,279 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Mô liên kết có chức năng chính nào sau đây?",
+      "Choices": [
+        "Co bóp và dẫn truyền xung thần kinh",
+        "Hỗ trợ, trao đổi chất, bảo vệ và dự trữ",
+        "Tiết hormone và enzyme",
+        "Lọc máu và vận chuyển oxy"
+      ],
+      "Ans": 1,
+      "Explantion": "Mô liên kết có nhiều chức năng quan trọng bao gồm hỗ trợ cấu trúc, tạo môi trường cho trao đổi chất, bảo vệ cơ thể, và dự trữ năng lượng dưới dạng mỡ. [cite: 5]"
+    },
+    {
+      "Question": "Loại tế bào nào sau đây là tế bào gốc có khả năng biệt hóa thành các loại tế bào mô liên kết khác nhau?",
+      "Choices": [
+        "Nguyên bào sợi",
+        "Tế bào trung mô",
+        "Đại thực bào",
+        "Tế bào mỡ"
+      ],
+      "Ans": 1,
+      "Explantion": "Tế bào trung mô là một loại tế bào gốc chưa biệt hóa, có khả năng phát triển thành các tế bào chuyên biệt khác của mô liên kết. [cite: 11]"
+    },
+    {
+      "Question": "Sợi collagen có đặc tính nào sau đây?",
+      "Choices": [
+        "Đàn hồi cao và có khả năng co giãn",
+        "Cứng cáp, chắc khỏe và chịu lực tốt",
+        "Mảnh, tạo thành mạng lưới và liên kết các mô",
+        "Có màu vàng và tạo nên tính đàn hồi cho da"
+      ],
+      "Ans": 1,
+      "Explantion": "Sợi collagen là loại sợi phổ biến nhất trong mô liên kết, nổi bật với đặc tính cứng cáp và khả năng chịu lực kéo rất tốt. [cite: 23]"
+    },
+    {
+      "Question": "Chất căn bản của mô liên kết có vai trò gì?",
+      "Choices": [
+        "Cung cấp oxy cho tế bào",
+        "Là môi trường cho các chất dinh dưỡng và chất thải trao đổi giữa tế bào và máu",
+        "Tạo ra các sợi protein cho mô liên kết",
+        "Điều hòa nhiệt độ cơ thể"
+      ],
+      "Ans": 1,
+      "Explantion": "Chất căn bản là một chất nền dạng gel, có vai trò quan trọng trong việc tạo điều kiện cho sự trao đổi chất giữa tế bào và mạch máu. [cite: 27]"
+    },
+    {
+      "Question": "Mô liên kết thưa có đặc điểm gì?",
+      "Choices": [
+        "Chứa nhiều sợi collagen xếp song song",
+        "Có ít tế bào và chất nền hơn so với sợi",
+        "Có nhiều tế bào và chất nền rải rác trong sợi",
+        "Tạo thành các gân và dây chằng chắc khỏe"
+      ],
+      "Ans": 2,
+      "Explantion": "Mô liên kết thưa là loại mô liên kết phổ biến, có đặc trưng là chứa nhiều tế bào và chất nền phân tán trong mạng lưới sợi. [cite: 3]"
+    },
+    {
+      "Question": "Tế bào nào sau đây có khả năng thực bào, tiêu diệt vi khuẩn và các chất lạ?",
+      "Choices": [
+        "Nguyên bào sợi",
+        "Tế bào trung mô",
+        "Đại thực bào",
+        "Tế bào mỡ"
+      ],
+      "Ans": 2,
+      "Explantion": "Đại thực bào là một phần quan trọng của hệ miễn dịch, có khả năng thực bào và loại bỏ các tác nhân gây hại. [cite: 17, 18]"
+    },
+    {
+      "Question": "Sợi chun có vai trò gì quan trọng trong cơ thể?",
+      "Choices": [
+        "Tạo nên sự đàn hồi cho các mô và cơ quan",
+        "Liên kết các tế bào biểu mô với nhau",
+        "Tham gia vào quá trình đông máu",
+        "Dẫn truyền tín hiệu thần kinh"
+      ],
+      "Ans": 0,
+      "Explantion": "Sợi chun có khả năng co giãn và đàn hồi, giúp các mô và cơ quan (như phổi, mạch máu) có thể thay đổi kích thước. [cite: 23]"
+    },
+    {
+      "Question": "Mô liên kết đặc có định hướng được tìm thấy ở đâu?",
+      "Choices": [
+        "Da",
+        "Gân và dây chằng",
+        "Màng bao quanh cơ",
+        "Thành mạch máu"
+      ],
+      "Ans": 1,
+      "Explantion": "Mô liên kết đặc có định hướng, với các sợi collagen xếp song song, tạo nên các cấu trúc chắc khỏe như gân và dây chằng. [cite: 36]"
+    },
+    {
+      "Question": "Tế bào mast có vai trò gì trong phản ứng viêm và dị ứng?",
+      "Choices": [
+        "Tiết ra kháng thể",
+        "Giải phóng histamine và các chất trung gian hóa học",
+        "Thực bào các tế bào chết",
+        "Tạo ra sợi collagen mới"
+      ],
+      "Ans": 1,
+      "Explantion": "Tế bào mast chứa các hạt chứa histamine và các chất trung gian hóa học khác, đóng vai trò quan trọng trong các phản ứng viêm và dị ứng. [cite: 20]"
+    },
+    {
+      "Question": "Mô mỡ có chức năng chính nào sau đây?",
+      "Choices": [
+        "Co bóp và tạo ra chuyển động",
+        "Dự trữ năng lượng, bảo vệ và cách nhiệt",
+        "Sản xuất tế bào máu",
+        "Dẫn truyền thông tin"
+      ],
+      "Ans": 1,
+      "Explantion": "Mô mỡ chủ yếu được tạo thành từ các tế bào mỡ, có chức năng dự trữ năng lượng, bảo vệ các cơ quan và cách nhiệt cho cơ thể. [cite: 39]"
+    },
+    {
+      "Question": "Thành phần chính của sụn là gì?",
+      "Choices": [
+        "Tế bào sụn và chất nền sụn",
+        "Sợi collagen và sợi chun",
+        "Tế bào xương và chất nền xương",
+        "Tế bào cơ và sợi cơ"
+      ],
+      "Ans": 0,
+      "Explantion": "Sụn là một loại mô liên kết đặc biệt, bao gồm tế bào sụn (chondrocytes) và chất nền sụn, tạo nên cấu trúc vững chắc và đàn hồi. [cite: 43, 44]"
+    },
+    {
+      "Question": "Sụn trong có ở đâu trong cơ thể?",
+      "Choices": [
+        "Vành tai và nắp thanh quản",
+        "Đĩa đệm giữa các đốt sống",
+        "Đầu xương khớp, đường hô hấp, sụn sườn",
+        "Gân và dây chằng"
+      ],
+      "Ans": 2,
+      "Explantion": "Sụn trong là loại sụn phổ biến nhất, có mặt ở nhiều nơi như sụn khớp, đường hô hấp và sụn sườn. [cite: 45]"
+    },
+    {
+      "Question": "Sụn chun khác với sụn trong ở điểm nào?",
+      "Choices": [
+        "Chứa nhiều sợi collagen type I",
+        "Có khả năng vôi hóa",
+        "Chứa sợi chun trong chất nền",
+        "Không có tế bào sụn"
+      ],
+      "Ans": 3,
+      "Explantion": "Sụn chun có đặc điểm là chứa các sợi chun trong chất nền, tạo nên tính đàn hồi cho các cấu trúc như vành tai và nắp thanh quản. [cite: 46]"
+    },
+    {
+      "Question": "Màng sụn có vai trò gì?",
+      "Choices": [
+        "Cung cấp máu và dinh dưỡng cho sụn",
+        "Bao bọc và bảo vệ sụn, tham gia vào sự phát triển của sụn",
+        "Liên kết sụn với xương",
+        "Tạo ra dịch khớp bôi trơn"
+      ],
+      "Ans": 1,
+      "Explantion": "Màng sụn là một lớp mô liên kết bao quanh sụn, có vai trò quan trọng trong việc nuôi dưỡng và tái tạo sụn. [cite: 48]"
+    },
+     {
+      "Question": "Sụn xơ có đặc điểm cấu tạo nào đặc trưng?",
+      "Choices": [
+        "Chứa nhiều sợi chun",
+        "Chứa sợi collagen type II",
+        "Chứa sợi collagen type I xếp thành bó lớn",
+         "Chất nền trong suốt và đồng nhất"
+      ],
+      "Ans": 2,
+      "Explantion": "Sụn xơ có đặc điểm là chứa các bó sợi collagen type I dày đặc, giúp tăng cường khả năng chịu lực kéo. [cite: 47]"
+    },
+    {
+      "Question": "Quá trình sinh sản gian bào của mô sụn diễn ra như thế nào?",
+      "Choices": [
+        "Từ lớp trong của màng sụn",
+        "Tế bào sụn phân chia trong ổ sụn",
+        "Các tế bào trung mô biệt hóa thành tế bào sụn",
+        "Sự lắng đọng chất nền sụn từ bên ngoài"
+      ],
+      "Ans": 2,
+      "Explantion": "Sinh sản gian bào là quá trình tế bào sụn phân chia bên trong ổ sụn, làm tăng kích thước của sụn từ bên trong. [cite: 51]"
+    },
+    {
+      "Question": "Chất nền xương có thành phần vô cơ chủ yếu là gì?",
+      "Choices": [
+        "Natri clorua",
+        "Kali clorua",
+        "Canxi cacbonat",
+        "Canxi photphat"
+      ],
+      "Ans": 4,
+      "Explantion": "Chất nền xương có thành phần vô cơ chủ yếu là canxi photphat, tạo nên độ cứng chắc cho xương. [cite: 52]"
+    },
+    {
+      "Question": "Cấu trúc nào sau đây là đơn vị cấu trúc cơ bản của xương đặc?",
+      "Choices": [
+        "Bè xương",
+        "Hệ thống Havers",
+        "Ống tủy",
+        "Màng xương"
+      ],
+      "Ans": 2,
+      "Explantion": "Hệ thống Havers là đơn vị cấu trúc hình trụ đặc trưng của xương đặc, bao gồm các lá xương xếp vòng quanh ống Havers. [cite: 53]"
+    },
+    {
+      "Question": "Tế bào nào sau đây có vai trò hủy xương?",
+      "Choices": [
+        "Tạo cốt bào",
+        "Cốt bào",
+        "Hủy cốt bào",
+        "Nguyên bào sụn"
+      ],
+      "Ans": 3,
+      "Explantion": "Hủy cốt bào là tế bào lớn, đa nhân, có vai trò phá hủy và tái hấp thu chất nền xương trong quá trình tu sửa xương. [cite: 62]"
+    },
+    {
+      "Question": "Màng xương có chức năng gì quan trọng?",
+      "Choices": [
+        "Cung cấp máu và thần kinh cho xương",
+        "Là nơi bám của gân và dây chằng",
+        "Tham gia vào quá trình tăng trưởng và sửa chữa xương",
+        "Tất cả các chức năng trên"
+      ],
+      "Ans": 4,
+      "Explantion": "Màng xương là một lớp mô liên kết bao phủ bên ngoài xương, có nhiều chức năng quan trọng đối với sự sống còn và phát triển của xương. [cite: 65]"
+    },
+    {
+      "Question": "Tủy xương có vai trò gì?",
+      "Choices": [
+        "Dự trữ chất khoáng",
+        "Sản xuất tế bào máu",
+        "Tạo ra chất nền xương",
+        "Điều hòa nồng độ canxi trong máu"
+      ],
+      "Ans": 2,
+      "Explantion": "Tủy xương nằm trong các hốc của xương, là nơi sản xuất ra các tế bào máu. [cite: 67]"
+    },
+    {
+      "Question": "Quá trình tạo xương từ mô liên kết kiểu màng diễn ra ở đâu?",
+      "Choices": [
+        "Xương dài",
+        "Xương dẹt",
+        "Xương ngắn",
+        "Sụn khớp"
+      ],
+      "Ans": 2,
+      "Explantion": "Quá trình tạo xương từ mô liên kết kiểu màng xảy ra chủ yếu ở các xương dẹt như xương sọ. [cite: 70]"
+    },
+    {
+      "Question": "Sụn nối có vai trò gì quan trọng trong sự phát triển của xương dài?",
+      "Choices": [
+        "Giúp xương dài ra",
+        "Giúp xương to ra về bề ngang",
+        "Bảo vệ đầu xương",
+        "Tạo ra dịch khớp"
+      ],
+      "Ans": 2,
+      "Explantion": "Sụn nối là một dải sụn nằm giữa đầu và thân xương dài, cho phép xương dài ra trong suốt thời kỳ tăng trưởng. [cite: 74]"
+    },
+    {
+       "Question": "Hệ thống Havers có chức năng chính nào sau đây?",
+      "Choices": [
+        "Vận chuyển máu và chất dinh dưỡng trong xương",
+        "Giúp xương phát triển về chiều dài",
+        "Tạo ra các tế bào máu",
+        "Bảo vệ tủy xương"
+      ],
+      "Ans": 1,
+      "Explantion": "Hệ thống Havers là các kênh vi mô trong xương đặc, chứa mạch máu và thần kinh, đảm bảo cung cấp dinh dưỡng và oxy cho các tế bào xương. [cite: 53]"
+    },
+    {
+      "Question": "Yếu tố nào sau đây có ảnh hưởng đến sự phát triển của xương?",
+      "Choices": [
+        "Di truyền",
+        "Dinh dưỡng",
+        "Hormone",
+        "Tất cả các yếu tố trên"
+      ],
+      "Ans": 4,
+      "Explantion": "Sự phát triển của xương chịu ảnh hưởng của nhiều yếu tố khác nhau, bao gồm di truyền, dinh dưỡng, hormone và vận động. [cite: 80]"
+    }
+  ]
+}

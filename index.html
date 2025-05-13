@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chọn đề thi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+  <div class="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6">
+    <h1 class="text-2xl font-bold mb-4 text-center">📘 Chọn đề thi</h1>
+    <ul id="test-list" class="space-y-2"></ul>
+    <div class="mt-8">
+  <label class="block text-lg font-semibold mb-2">📂 Tải đề thi từ máy tính:</label>
+  <input type="file" accept=".json" id="fileInput"
+         class="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4
+         file:rounded-full file:border-0 file:text-sm file:font-semibold
+         file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100" />
+</div>
+  </div>
+  <section class="mt-10 p-6 bg-gray-100 rounded-lg shadow-md">
+  <h2 class="text-xl font-semibold mb-2">📘 Hướng dẫn tạo đề bằng AI</h2>
+  <p class="mb-4">Dán prompt sau vào ChatGPT, Claude, GPT-4 hoặc công cụ AI bạn dùng để tạo đề thi từ tài liệu học sau đó lưu thành file ".json" (ví dụ "dethi.json") và đưa lên web:</p>
+  <div class="relative">
+    <textarea id="aiPrompt" class="w-full h-60 p-3 text-sm font-mono border border-gray-300 rounded resize-none" readonly>
+Hãy đọc tài liệu sau đây và tạo một đề thi trắc nghiệm dưới dạng JSON theo đúng cấu trúc sau:
+
+{
+  "AllQuestions": [
+    {
+      "Question": "Câu hỏi 1?",
+      "Choices": ["A", "B", "C", "D"],
+      "Ans": 0,
+      "Explantion": "Giải thích tại sao đáp án đó là đúng"
+    },
+    ...
+  ]
+}
+
+Yêu cầu:
+- Mỗi câu hỏi có 4 phương án lựa chọn.
+- Chỉ có duy nhất một phương án đúng.
+- Đáp án đúng được ghi bằng chỉ số (0 là A, 1 là B,...).
+- Tất cả dữ liệu phải đúng chuẩn JSON.
+- Trích xuất nội dung từ tài liệu sau (nội dung bạn đưa vào đây).
+    </textarea>
+    <button onclick="copyPrompt()" class="absolute top-2 right-2 px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600">📋 Copy Prompt</button>
+  </div>
+</section>
+
+    <script src="paths.js"></script>
+  <script src="script/select.js"></script>
+  <script>
+  function copyPrompt() {
+    const prompt = document.getElementById("aiPrompt");
+    prompt.select();
+    prompt.setSelectionRange(0, 99999); // For mobile
+    document.execCommand("copy");
+    alert("Đã copy prompt vào clipboard!");
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Mô máu bao gồm những thành phần nào?",
+      "Choices": [
+        "Tế bào biểu mô và tế bào liên kết",
+        "Huyết tương và các tế bào máu",
+        "Tế bào thần kinh và tế bào thần kinh đệm",
+        "Tế bào cơ và tế bào sụn"
+      ],
+      "Ans": 0,
+      "Explantion": "Mô máu bao gồm huyết tương và các tế bào máu (hồng cầu, bạch cầu, tiểu cầu)."
+    },
+    {
+      "Question": "Các dòng tế bào máu bao gồm những loại nào?",
+      "Choices": [
+        "Tế bào biểu mô, tế bào liên kết, tế bào thần kinh",
+        "Hồng cầu, bạch cầu, tiểu cầu",
+        "Tế bào cơ vân, tế bào cơ tim, tế bào cơ trơn",
+        "Tế bào sụn, tế bào xương, tế bào mỡ"
+      ],
+      "Ans": 0,
+      "Explantion": "Các dòng tế bào máu bao gồm hồng cầu, bạch cầu và tiểu cầu."
+    },
+    {
+      "Question": "Hematocrit là gì?",
+      "Choices": [
+        "Số lượng bạch cầu trong một đơn vị máu",
+        "Thể tích huyết tương trong máu",
+        "Dung tích hồng cầu",
+        "Số lượng tiểu cầu trong máu"
+      ],
+      "Ans": 1,
+      "Explantion": "Hematocrit (Hct) là dung tích hồng cầu."
+    },
+    {
+      "Question": "Loại tế bào máu nào chiếm số lượng nhiều nhất trong máu?",
+      "Choices": [
+        "Bạch cầu",
+        "Hồng cầu",
+        "Tiểu cầu",
+        "Lympho bào"
+      ],
+      "Ans": 1,
+      "Explantion": "Hồng cầu chiếm số lượng lớn nhất (43-45%) trong máu."
+    },
+    {
+      "Question": "Bạch cầu có đặc tính gì khi di chuyển?",
+      "Choices": [
+        "Di chuyển thụ động",
+        "Di chuyển chủ động",
+        "Không di chuyển",
+        "Di chuyển theo dòng chảy của máu"
+      ],
+      "Ans": 1,
+      "Explantion": "Bạch cầu có khả năng di chuyển chủ động."
+    },
+    {
+      "Question": "Hồng cầu có hình dạng gì?",
+      "Choices": [
+        "Hình cầu",
+        "Hình thoi",
+        "Hình cầu lõm hai mặt",
+        "Hình đa diện"
+      ],
+      "Ans": 2,
+      "Explantion": "Hồng cầu có hình dạng hình cầu lõm hai mặt."
+    },
+    {
+      "Question": "Đâu là nguyên nhân gây ra hồng cầu hình liềm?",
+      "Choices": [
+        "Thiếu sắt",
+        "Đột biến gen HbS",
+        "Thiếu vitamin B12",
+        "Do nhiễm trùng"
+      ],
+      "Ans": 1,
+      "Explantion": "Hồng cầu hình liềm là do đột biến gen HbS."
+    },
+    {
+      "Question": "Quá trình tạo hồng cầu diễn ra như thế nào?",
+      "Choices": [
+        "Từ nguyên bào sợi",
+        "Từ tế bào thần kinh",
+        "Từ tiền nguyên hồng cầu",
+        "Từ tế bào cơ"
+      ],
+      "Ans": 2,
+      "Explantion": "Quá trình tạo hồng cầu bắt đầu từ tiền nguyên hồng cầu."
+    },
+    {
+      "Question": "Loại bạch cầu nào chiếm số lượng lớn nhất trong bạch cầu ngoại vi?",
+      "Choices": [
+        "Bạch cầu ưa acid",
+        "Bạch cầu ưa base",
+        "Bạch cầu trung tính",
+        "Mono bào"
+      ],
+      "Ans": 2,
+      "Explantion": "Bạch cầu trung tính chiếm số lượng lớn nhất (60-70%) trong bạch cầu ngoại vi."
+    },
+    {
+      "Question": "Bạch cầu trung tính có vai trò gì?",
+      "Choices": [
+        "Tiết kháng thể",
+        "Thực bào",
+        "Tham gia phản ứng dị ứng",
+        "Chống nhiễm trùng giun sán"
+      ],
+      "Ans": 1,
+      "Explantion": "Bạch cầu trung tính là các tiểu thực bào."
+    },
+    {
+      "Question": "Bạch cầu ưa acid liên quan đến phản ứng nào?",
+      "Choices": [
+        "Phản ứng dị ứng",
+        "Thực bào vi khuẩn",
+        "Tiết histamine",
+        "Tạo kháng thể"
+      ],
+      "Ans": 0,
+      "Explantion": "Bạch cầu ưa acid tham gia vào phản ứng dị ứng và nhiễm trùng giun sán."
+    },
+    {
+      "Question": "Tế bào nào có khả năng di chuyển xuyên qua thành mạch máu?",
+      "Choices": [
+        "Hồng cầu",
+        "Tiểu cầu",
+        "Bạch cầu",
+        "Tất cả các tế bào máu"
+      ],
+      "Ans": 2,
+      "Explantion": "Bạch cầu có khả năng di chuyển xuyên qua thành mao mạch."
+    },
+    {
+      "Question": "Đại thực bào có nguồn gốc từ tế bào nào?",
+      "Choices": [
+        "Lympho bào",
+        "Mono bào",
+        "Bạch cầu trung tính",
+        "Bạch cầu ưa acid"
+      ],
+      "Ans": 1,
+      "Explantion": "Đại thực bào có nguồn gốc từ mono bào."
+    },
+    {
+      "Question": "Lympho bào có vai trò gì?",
+      "Choices": [
+        "Thực bào",
+        "Miễn dịch",
+        "Vận chuyển oxy",
+        "Đông máu"
+      ],
+      "Ans": 1,
+      "Explantion": "Lympho bào tham gia vào miễn dịch (miễn dịch tế bào và miễn dịch dịch thể)."
+    },
+    {
+      "Question": "Tế bào nào có kích thước nhỏ nhất trong máu?",
+      "Choices": [
+        "Hồng cầu",
+        "Bạch cầu",
+        "Tiểu cầu",
+        "Mono bào"
+      ],
+      "Ans": 2,
+      "Explantion": "Tiểu cầu là các tế bào nhỏ."
+    },
+    {
+      "Question": "Quá trình tạo máu (tạo huyết) xảy ra ở đâu trong giai đoạn phôi thai?",
+      "Choices": [
+        "Tủy xương",
+        "Gan",
+        "Thành túi noãn hoàng",
+        "Lách"
+      ],
+      "Ans": 2,
+      "Explantion": "Trong giai đoạn phôi thai, tạo huyết xảy ra ở thành túi noãn hoàng, gan, lách và tủy xương."
+    },
+    {
+      "Question": "Cấu trúc nào sau đây có trong bạch cầu trung tính?",
+      "Choices": [
+        "Hạt ưa azur",
+        "Hemoglobin",
+        "Kháng thể",
+        "Actin và myosin"
+      ],
+      "Ans": 0,
+      "Explantion": "Bạch cầu trung tính có hạt ưa azur (hạt cơ bản)."
+    },
+    {
+      "Question": "Loại bạch cầu nào tăng số lượng trong nhiễm trùng giun sán?",
+      "Choices": [
+        "Bạch cầu trung tính",
+        "Bạch cầu ưa acid",
+        "Bạch cầu ưa base",
+        "Mono bào"
+      ],
+      "Ans": 1,
+      "Explantion": "Bạch cầu ưa acid tăng số lượng trong nhiễm trùng giun sán."
+    },
+    {
+      "Question": "Tế bào nào có nhân chia thùy?",
+      "Choices": [
+        "Hồng cầu",
+        "Bạch cầu trung tính",
+        "Lympho bào",
+        "Mono bào"
+      ],
+      "Ans": 1,
+      "Explantion": "Bạch cầu trung tính có nhân chia thùy (2-5 thùy)."
+    },
+    {
+      "Question": "Tiểu cầu có vai trò gì?",
+      "Choices": [
+        "Vận chuyển oxy",
+        "Tham gia phản ứng miễn dịch",
+        "Đông máu",
+        "Thực bào"
+      ],
+      "Ans": 2,
+      "Explantion": "Tiểu cầu tham gia vào quá trình đông máu."
+    },
+    {
+      "Question": "Tế bào nào có kích thước lớn nhất trong máu?",
+      "Choices": [
+        "Hồng cầu",
+        "Bạch cầu",
+        "Tiểu cầu",
+        "Đại thực bào"
+      ],
+      "Ans": 1,
+      "Explantion": "Trong các tế bào máu, bạch cầu có kích thước lớn nhất."
+    },
+    {
+      "Question": "Cấu trúc nào giúp bạch cầu di chuyển?",
+      "Choices": [
+        "Lông giả",
+        "Roi",
+        "Giả túc",
+        "Vi nhung mao"
+      ],
+      "Ans": 2,
+      "Explantion": "Bạch cầu di chuyển bằng giả túc."
+    },
+    {
+      "Question": "RNA giảm dần trong quá trình phát triển của tế bào nào?",
+      "Choices": [
+        "Bạch cầu",
+        "Hồng cầu",
+        "Tiểu cầu",
+        "Mono bào"
+      ],
+      "Ans": 1,
+      "Explantion": "RNA giảm dần trong quá trình phát triển của hồng cầu."
+    },
+    {
+      "Question": "Tế bào nào có thể xuyên mạch?",
+      "Choices": [
+        "Hồng cầu",
+        "Bạch cầu",
+        "Tiểu cầu",
+        "Cả bạch cầu và tiểu cầu"
+      ],
+      "Ans": 3,
+      "Explantion": "Cả bạch cầu và tiểu cầu có thể xuyên mạch."
+    },
+    {
+      "Question": "Tế bào nào có hạt bào tương ưa base?",
+      "Choices": [
+        "Bạch cầu trung tính",
+        "Bạch cầu ưa acid",
+        "Bạch cầu ưa base",
+        "Mono bào"
+      ],
+      "Ans": 2,
+      "Explantion": "Bạch cầu ưa base có hạt bào tương ưa base."
+    }
+  ]
+}

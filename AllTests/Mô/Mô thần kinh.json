@@ -1,0 +1,279 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Mô thần kinh bao gồm những loại tế bào nào?",
+      "Choices": [
+        "Tế bào biểu mô và tế bào liên kết",
+        "Tế bào thần kinh (neuron) và tế bào thần kinh đệm (neuroglia)",
+        "Tế bào cơ và tế bào máu",
+        "Tế bào nội tiết và tế bào ngoại tiết"
+      ],
+      "Ans": 0,
+      "Explantion": "Mô thần kinh bao gồm hai loại tế bào chính: tế bào thần kinh (neuron) và tế bào thần kinh đệm (neuroglia). [cite: 5]"
+    },
+    {
+      "Question": "Chức năng chính của hệ thần kinh là gì?",
+      "Choices": [
+        "Tiêu hóa thức ăn và hấp thụ chất dinh dưỡng",
+        "Vận chuyển oxy và chất dinh dưỡng đến các tế bào",
+        "Tiếp nhận kích thích, xử lý thông tin và điều hòa hoạt động của các cơ quan",
+        "Bài tiết hormone và điều hòa quá trình sinh sản"
+      ],
+      "Ans": 1,
+      "Explantion": "Hệ thần kinh có chức năng tiếp nhận kích thích, xử lý thông tin và điều hòa hoạt động của các cơ quan để thích ứng với môi trường. [cite: 3]"
+    },
+    {
+      "Question": "Đơn vị cấu trúc và chức năng cơ bản của mô thần kinh là gì?",
+      "Choices": [
+        "Tế bào thần kinh đệm",
+        "Neuron (tế bào thần kinh)",
+        "Synapse",
+        "Sợi thần kinh"
+      ],
+      "Ans": 0,
+      "Explantion": "Neuron, hay tế bào thần kinh, là đơn vị cấu trúc và chức năng cơ bản của mô thần kinh. [cite: 5, 6]"
+    },
+    {
+      "Question": "Thân của neuron chứa những thành phần nào?",
+      "Choices": [
+        "Sợi trục và sợi nhánh",
+        "Nhân và bào tương",
+        "Synapse và chất dẫn truyền thần kinh",
+        "Bao myelin và nút Ranvier"
+      ],
+      "Ans": 1,
+      "Explantion": "Thân neuron chứa nhân và phần lớn các bào tương. [cite: 6]"
+    },
+    {
+      "Question": "Chức năng của sợi nhánh (dendrite) là gì?",
+      "Choices": [
+        "Dẫn truyền xung thần kinh ra khỏi thân neuron",
+        "Dẫn truyền xung thần kinh về phía thân neuron",
+        "Kết nối neuron với các tế bào khác tại synapse",
+        "Bao bọc và bảo vệ sợi trục"
+      ],
+      "Ans": 1,
+      "Explantion": "Sợi nhánh dẫn truyền xung thần kinh theo chiều hướng tâm, từ phần đầu sợi nhánh đến thân neuron. [cite: 7, 10]"
+    },
+    {
+      "Question": "Sợi trục (axon) có đặc điểm gì?",
+      "Choices": [
+        "Có nhiều sợi trục trên một neuron",
+        "Dẫn truyền xung thần kinh về phía thân neuron",
+        "Thường chỉ có một sợi trục trên một neuron",
+        "Chứa nhiều ribosome và lưới nội bào hạt"
+      ],
+      "Ans": 2,
+      "Explantion": "Mỗi neuron thường chỉ có một sợi trục, dẫn truyền xung thần kinh theo chiều ly tâm từ thân tế bào đến cúc tận cùng. [cite: 6, 10]"
+    },
+    {
+      "Question": "Synapse là gì?",
+      "Choices": [
+        "Một loại tế bào thần kinh đệm",
+        "Cấu trúc kết nối giữa hai neuron hoặc giữa neuron và tế bào khác",
+        "Một phần của sợi trục",
+        "Một loại chất dẫn truyền thần kinh"
+      ],
+      "Ans": 1,
+      "Explantion": "Synapse là cấu trúc chuyên biệt cho phép truyền thông tin giữa các neuron hoặc giữa neuron và các tế bào khác. [cite: 6, 14]"
+    },
+    {
+      "Question": "Chất xám của hệ thần kinh trung ương được tạo thành chủ yếu từ thành phần nào?",
+      "Choices": [
+        "Sợi trục có myelin",
+        "Sợi trục không có myelin",
+        "Thân neuron",
+        "Tế bào thần kinh đệm"
+      ],
+      "Ans": 2,
+      "Explantion": "Chất xám của hệ thần kinh trung ương được tạo thành chủ yếu từ thân neuron. [cite: 8]"
+    },
+    {
+      "Question": "Thể Nissl trong tế bào thần kinh là gì?",
+      "Choices": [
+        "Nhân của tế bào thần kinh",
+        "Lưới nội bào hạt và ribosome",
+        "Ty thể",
+        "Bộ Golgi"
+      ],
+      "Ans": 1,
+      "Explantion": "Thể Nissl là các cấu trúc ưa baz trong bào tương của thân neuron, bao gồm lưới nội bào hạt và ribosome tự do. [cite: 6, 9]"
+    },
+    {
+      "Question": "Neuron hai cực có ở đâu?",
+      "Choices": [
+        "Vỏ não",
+        "Tủy sống",
+        "Hạch gai của tủy sống",
+        "Võng mạc mắt"
+      ],
+      "Ans": 3,
+      "Explantion": "Neuron hai cực là loại neuron có ở võng mạc mắt. [cite: 11, 12]"
+    },
+    {
+      "Question": "Tế bào thần kinh đệm (neuroglia) có chức năng gì?",
+      "Choices": [
+        "Dẫn truyền xung động thần kinh",
+        "Co bóp và tạo ra chuyển động",
+        "Hỗ trợ, bảo vệ và dinh dưỡng cho mô thần kinh",
+        "Tiết hormone"
+      ],
+      "Ans": 2,
+      "Explantion": "Tế bào thần kinh đệm (neuroglia) có chức năng chống đỡ, làm ranh giới, dinh dưỡng, chế tiết và bảo vệ mô thần kinh. [cite: 21]"
+    },
+    {
+      "Question": "Tế bào Schwann có vai trò gì?",
+      "Choices": [
+        "Tạo ra bao myelin ở hệ thần kinh ngoại biên",
+        "Tạo ra dịch não tủy",
+        "Thực bào các mảnh vụn tế bào",
+        "Điều hòa môi trường hóa học của não"
+      ],
+      "Ans": 0,
+      "Explantion": "Tế bào Schwann bao bọc các sợi thần kinh ở hệ thần kinh ngoại biên và tạo ra bao myelin. [cite: 24, 26]"
+    },
+    {
+      "Question": "Bao myelin có chức năng gì?",
+      "Choices": [
+        "Tăng tốc độ dẫn truyền xung động thần kinh",
+        "Bảo vệ thân neuron",
+        "Kết nối các neuron với nhau",
+        "Tạo ra chất dẫn truyền thần kinh"
+      ],
+      "Ans": 0,
+      "Explantion": "Bao myelin có chức năng tăng tốc độ dẫn truyền xung động thần kinh dọc theo sợi trục. [cite: 26, 39]"
+    },
+    {
+      "Question": "Nút Ranvier là gì?",
+      "Choices": [
+        "Khe giữa hai tế bào thần kinh",
+        "Vùng không có bao myelin trên sợi trục",
+        "Phần cuối của sợi trục",
+        "Một loại tế bào thần kinh đệm"
+      ],
+      "Ans": 1,
+      "Explantion": "Nút Ranvier là nơi không có bao myelin trên sợi trục, giữa hai tế bào Schwann liền kề. [cite: 27]"
+    },
+    {
+      "Question": "Tế bào sao (astrocyte) có chức năng gì?",
+      "Choices": [
+        "Tạo ra bao myelin ở hệ thần kinh trung ương",
+        "Điều hòa môi trường hóa học của não và tạo hàng rào máu não",
+        "Lót các khoang chứa dịch não tủy",
+        "Thực bào các tế bào chết và mảnh vụn"
+      ],
+      "Ans": 1,
+      "Explantion": "Tế bào sao (astrocyte) có chức năng chống đỡ, điều hòa môi trường và tạo ra hàng rào máu não. [cite: 29, 30]"
+    },
+    {
+      "Question": "Tế bào ít nhánh (oligodendrocyte) có vai trò gì?",
+      "Choices": [
+        "Tạo ra bao myelin ở hệ thần kinh trung ương",
+        "Loại bỏ các chất thải của quá trình trao đổi chất",
+        "Dẫn truyền xung động thần kinh",
+        "Hình thành hàng rào máu não"
+      ],
+      "Ans": 0,
+      "Explantion": "Tế bào ít nhánh (oligodendrocyte) tạo ra bao myelin bao quanh các sợi trục trong hệ thần kinh trung ương. [cite: 32, 33]"
+    },
+    {
+      "Question": "Dịch não tủy (CSF) được sản xuất ở đâu?",
+      "Choices": [
+        "Tủy sống",
+        "Màng não",
+        "Đám rối màng mạch trong não thất",
+        "Hạch thần kinh"
+      ],
+      "Ans": 2,
+      "Explantion": "Dịch não tủy (CSF) được sản xuất bởi đám rối màng mạch trong các não thất. [cite: 37]"
+    },
+    {
+      "Question": "Chức năng của dịch não tủy là gì?",
+      "Choices": [
+        "Dẫn truyền xung động thần kinh",
+        "Bảo vệ não và tủy sống khỏi chấn động",
+        "Cung cấp oxy cho não",
+        "Loại bỏ các chất thải từ máu"
+      ],
+      "Ans": 1,
+      "Explantion": "Dịch não tủy có chức năng bảo vệ hệ thần kinh trung ương khỏi các sang chấn cơ học. [cite: 49, 50, 51]"
+    },
+    {
+      "Question": "Màng não tủy bao gồm bao nhiêu lớp?",
+      "Choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "Ans": 2,
+      "Explantion": "Màng não tủy bao gồm 3 lớp: màng cứng, màng nhện và màng mềm. [cite: 49]"
+    },
+    {
+      "Question": "Hệ thần kinh ngoại biên (PNS) bao gồm những thành phần nào?",
+      "Choices": [
+        "Não và tủy sống",
+        "Hạch thần kinh, dây thần kinh và các tận cùng thần kinh",
+        "Chất xám và chất trắng",
+        "Vỏ não và tiểu não"
+      ],
+      "Ans": 1,
+      "Explantion": "Hệ thần kinh ngoại biên (PNS) bao gồm hạch thần kinh, dây thần kinh và các đầu tận cùng thần kinh. [cite: 4]"
+    },
+    {
+      "Question": "Hạch thần kinh là gì?",
+      "Choices": [
+        "Một bó sợi trục",
+        "Một tập hợp các thân neuron nằm ngoài hệ thần kinh trung ương",
+        "Một loại tế bào thần kinh đệm",
+        "Một cấu trúc của não"
+      ],
+      "Ans": 1,
+      "Explantion": "Hạch thần kinh là một cấu trúc chứa thân neuron nằm ngoài hệ thần kinh trung ương. [cite: 3, 56]"
+    },
+    {
+      "Question": "Dây thần kinh được cấu tạo từ gì?",
+      "Choices": [
+        "Các sợi trục có myelin",
+        "Các bó sợi thần kinh",
+        "Các tế bào thần kinh đệm",
+        "Các mạch máu"
+      ],
+      "Ans": 1,
+      "Explantion": "Dây thần kinh được tạo thành từ các bó sợi thần kinh. [cite: 54]"
+    },
+    {
+      "Question": "Tận cùng thần kinh cảm giác có chức năng gì?",
+      "Choices": [
+        "Dẫn truyền xung động đến cơ",
+        "Tiếp nhận kích thích từ môi trường",
+        "Tiết ra chất dẫn truyền thần kinh",
+        "Bảo vệ tế bào thần kinh"
+      ],
+      "Ans": 1,
+      "Explantion": "Tận cùng thần kinh cảm giác có chức năng tiếp nhận các kích thích từ môi trường. [cite: 58]"
+    },
+    {
+      "Question": "Tận cùng thần kinh vận động có chức năng gì?",
+      "Choices": [
+        "Dẫn truyền xung động đến cơ hoặc tuyến",
+        "Truyền tín hiệu đến não",
+        "Tạo ra cảm giác đau",
+        "Điều hòa nhịp tim"
+      ],
+      "Ans": 0,
+      "Explantion": "Tận cùng thần kinh vận động dẫn truyền xung động thần kinh đến cơ hoặc tuyến để tạo ra đáp ứng. [cite: 58]"
+    },
+    {
+      "Question": "Cấu trúc nào sau đây thuộc về tận cùng thần kinh cảm giác?",
+      "Choices": [
+        "Tiểu thể Meissner",
+        "Nút tận cùng",
+        "Bản vận động",
+        "Synapse hóa học"
+      ],
+      "Ans": 0,
+      "Explantion": "Tiểu thể Meissner là một loại tận cùng thần kinh cảm giác, chịu trách nhiệm về xúc giác. [cite: 59]"
+    }
+  ]
+}

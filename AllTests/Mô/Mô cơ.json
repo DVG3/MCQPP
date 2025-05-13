@@ -1,0 +1,279 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Mô cơ được tạo nên bởi loại tế bào nào?",
+      "Choices": [
+        "Tế bào thần kinh",
+        "Tế bào cơ (sợi cơ)",
+        "Tế bào biểu mô",
+        "Tế bào liên kết"
+      ],
+      "Ans": 0,
+      "Explantion": "Mô cơ được tạo nên bởi các tế bào cơ, còn được gọi là sợi cơ, có khả năng co duỗi. [cite: 123]"
+    },
+    {
+      "Question": "Đâu là một trong các loại cơ chính?",
+      "Choices": [
+        "Cơ biểu mô",
+        "Cơ thần kinh",
+        "Cơ vân",
+        "Cơ quanh mạch"
+      ],
+      "Ans": 1,
+      "Explantion": "Các loại cơ chính bao gồm cơ vân, cơ tim và cơ trơn. [cite: 123]"
+    },
+    {
+      "Question": "Mô cơ có nguồn gốc từ đâu?",
+      "Choices": [
+        "Ngoại bì phôi",
+        "Trung bì phôi",
+        "Nội bì phôi",
+        "Mào thần kinh"
+      ],
+      "Ans": 1,
+      "Explantion": "Mô cơ có nguồn gốc từ trung bì phôi. [cite: 124]"
+    },
+    {
+      "Question": "Loại cơ nào có khả năng tái tạo mô cao nhất?",
+      "Choices": [
+        "Cơ vân",
+        "Cơ tim",
+        "Cơ trơn",
+        "Cả ba loại cơ có khả năng tái tạo như nhau"
+      ],
+      "Ans": 1,
+      "Explantion": "Khả năng tái tạo mô của các loại cơ theo thứ tự giảm dần là: cơ trơn > cơ vân > cơ tim. [cite: 124]"
+    },
+    {
+      "Question": "Hoạt động của cơ vân được điều hòa bởi yếu tố nào?",
+      "Choices": [
+        "Hệ thần kinh tự chủ",
+        "Hormone",
+        "Ý muốn",
+        "Máu"
+      ],
+      "Ans": 2,
+      "Explantion": "Co cơ vân là hoạt động có ý thức, có nghĩa là nó được điều hòa bởi ý muốn. [cite: 124]"
+    },
+    {
+      "Question": "Đặc điểm nào sau đây là của cơ tim?",
+      "Choices": [
+        "Co mạnh, nhanh, không liên tục",
+        "Co yếu, chậm",
+        "Co mạnh, nhanh, liên tục",
+        "Có khả năng tái tạo cao"
+      ],
+      "Ans": 2,
+      "Explantion": "Cơ tim có đặc tính co mạnh, nhanh và liên tục. [cite: 126]"
+    },
+    {
+      "Question": "Đâu không phải là thành phần của cơ vân?",
+      "Choices": [
+        "Sợi cơ",
+        "Bó cơ",
+        "Mạc sâu",
+        "Tủy xương"
+      ],
+      "Ans": 2,
+      "Explantion": "Cấu trúc của cơ vân bao gồm sợi cơ, bó cơ, bao bó cơ, bắp cơ, mạc sâu và gân. [cite: 127]"
+    },
+    {
+      "Question": "Cấu trúc nào sau đây có trong tế bào cơ vân?",
+      "Choices": [
+        "Vạch bậc thang",
+        "Ống T",
+        "Thể đặc",
+        "Khoang Henlé"
+      ],
+      "Ans": 1,
+      "Explantion": "Tế bào cơ vân chứa các cấu trúc như nhân, ống T, lưới nội bào trơn, màng bào tương, vi sợi cơ và ty thể. [cite: 128]"
+    },
+    {
+      "Question": "Vi sợi cơ bao gồm những thành phần nào?",
+      "Choices": [
+        "Actin và myosin",
+        "Tropomyosin và troponin",
+        "Actin G và actin F",
+        "Cả A và B"
+      ],
+      "Ans": 3,
+      "Explantion": "Vi sợi cơ bao gồm siêu sợi actin (sợi mỏng) và siêu sợi myosin (sợi dày), cùng với các protein khác như tropomyosin và troponin. [cite: 130]"
+    },
+    {
+      "Question": "Đơn vị co cơ (sarcome) nằm giữa hai vạch nào?",
+      "Choices": [
+        "Vạch M",
+        "Vạch H",
+        "Vạch A",
+        "Vạch Z"
+      ],
+      "Ans": 3,
+      "Explantion": "Sarcome là đơn vị co cơ, nằm giữa hai vạch Z liền nhau. [cite: 132]"
+    },
+    {
+      "Question": "Hiện tượng gì xảy ra với băng I khi co cơ?",
+      "Choices": [
+        "Dài ra",
+        "Ngắn lại",
+        "Không thay đổi",
+        "Biến mất"
+      ],
+      "Ans": 1,
+      "Explantion": "Khi co cơ, các đoạn sáng (băng I và vạch H) thu hẹp kích thước. [cite: 139]"
+    },
+    {
+      "Question": "Bộ ba (triad) trong cơ vân bao gồm những thành phần nào?",
+      "Choices": [
+        "Ống T và 1 túi tận cùng",
+        "Ống T và 2 túi tận cùng",
+        "2 ống T và 1 túi tận cùng",
+        "Chỉ có các túi tận cùng"
+      ],
+      "Ans": 1,
+      "Explantion": "Bộ ba (triad) trong cơ vân bao gồm một ống ngang (ống T) và hai túi tận cùng của lưới nội bào. [cite: 134]"
+    },
+    {
+      "Question": "Ion nào đóng vai trò quan trọng trong cơ chế co cơ?",
+      "Choices": [
+        "Na+",
+        "K+",
+        "Ca2+",
+        "Cl-"
+      ],
+      "Ans": 2,
+      "Explantion": "Ion Ca2+ đóng vai trò quan trọng trong cơ chế co cơ. [cite: 138]"
+    },
+    {
+      "Question": "Điều gì xảy ra với sợi actin và myosin khi co cơ?",
+      "Choices": [
+        "Chúng ngắn lại",
+        "Chúng dài ra",
+        "Chúng trượt lên nhau",
+        "Chúng biến mất"
+      ],
+      "Ans": 2,
+      "Explantion": "Khi co cơ, sợi actin trượt sâu về phía vạch M, làm hai vạch Z của một đơn vị co cơ chuyển dịch lại gần nhau. [cite: 139]"
+    },
+    {
+      "Question": "Đặc điểm nào sau đây là của tế bào cơ tim?",
+      "Choices": [
+        "Hình thoi",
+        "Có vân và phân nhánh",
+        "Không có nhân",
+        "Không có khả năng co giãn"
+      ],
+      "Ans": 1,
+      "Explantion": "Tế bào cơ tim có hình trụ, có vân và phân nhánh tạo lưới sợi cơ. [cite: 141]"
+    },
+    {
+      "Question": "Vạch bậc thang có chức năng gì?",
+      "Choices": [
+        "Co cơ",
+        "Liên kết các tế bào cơ tim",
+        "Dẫn truyền xung thần kinh",
+        "Tạo ra năng lượng cho cơ tim"
+      ],
+      "Ans": 1,
+      "Explantion": "Vạch bậc thang là nơi các tế bào cơ tim kết nối với nhau. [cite: 143]"
+    },
+    {
+      "Question": "Cấu trúc nào sau đây chỉ có ở cơ tim?",
+      "Choices": [
+        "Ống T",
+        "Vạch Z",
+        "Vạch bậc thang",
+        "Ty thể"
+      ],
+      "Ans": 2,
+      "Explantion": "Vạch bậc thang là cấu trúc đặc trưng chỉ có ở cơ tim. [cite: 149]"
+    },
+    {
+      "Question": "Mô nút của tim có vai trò gì?",
+      "Choices": [
+        "Co bóp tự động và nhịp nhàng",
+        "Dẫn truyền oxy",
+        "Tiết hormone",
+        "Bảo vệ tim"
+      ],
+      "Ans": 0,
+      "Explantion": "Mô nút của tim có vai trò phát sinh và dẫn truyền xung động, giúp tim co bóp tự động và nhịp nhàng. [cite: 150]"
+    },
+    {
+      "Question": "Cơ trơn được tìm thấy ở đâu?",
+      "Choices": [
+        "Xương",
+        "Thành tạng rỗng và thành mạch",
+        "Não",
+        "Da"
+      ],
+      "Ans": 1,
+      "Explantion": "Cơ trơn được tìm thấy trong thành của các tạng rỗng và thành mạch máu. [cite: 152]"
+    },
+    {
+      "Question": "Đặc điểm nào sau đây là của tế bào cơ trơn?",
+      "Choices": [
+        "Hình trụ",
+        "Có vân",
+        "Hình thoi",
+        "Có nhiều nhân"
+      ],
+      "Ans": 2,
+      "Explantion": "Tế bào cơ trơn thường có hình thoi. [cite: 155]"
+    },
+    {
+      "Question": "Cấu trúc nào sau đây thay thế troponin trong cơ trơn?",
+      "Choices": [
+        "Calmodulin",
+        "Desmin",
+        "Vimentin",
+        "Alpha-actinin"
+      ],
+      "Ans": 0,
+      "Explantion": "Trong cơ trơn, troponin được thay thế bằng calmodulin. [cite: 155]"
+    },
+    {
+      "Question": "Cấu trúc nào sau đây là thành phần chính của thể đặc trong cơ trơn?",
+      "Choices": [
+        "Actin",
+        "Myosin",
+        "Desmin",
+        "Alpha-actinin"
+      ],
+      "Ans": 3,
+      "Explantion": "Thành phần chính của thể đặc trong cơ trơn là alpha-actinin. [cite: 155]"
+    },
+    {
+      "Question": "Điều gì xảy ra với cơ vân và cơ tim khi bị tổn thương?",
+      "Choices": [
+        "Phì đại",
+        "Tăng sản",
+        "Thay thế bằng mô sợi",
+        "Không thay đổi"
+      ],
+      "Ans": 2,
+      "Explantion": "Cơ vân và cơ tim không có khả năng phân chia và được thay thế bằng mô sợi khi bị tổn thương. [cite: 157]"
+    },
+    {
+      "Question": "Loại cơ nào có khả năng phân bào?",
+      "Choices": [
+        "Cơ vân",
+        "Cơ tim",
+        "Cơ trơn",
+        "Cả ba loại cơ"
+      ],
+      "Ans": 2,
+      "Explantion": "Cơ trơn có khả năng phân bào. [cite: 157]"
+    },
+    {
+      "Question": "Hiện tượng phì đại có thể xảy ra ở loại mô cơ nào?",
+      "Choices": [
+        "Cơ vân",
+        "Cơ tim",
+        "Cơ trơn",
+        "Tất cả các loại cơ"
+      ],
+      "Ans": 3,
+      "Explantion": "Hiện tượng phì đại (tăng kích thước tế bào) có thể xảy ra ở cả cơ vân, cơ tim và cơ trơn. [cite: 157]"
+    }
+  ]
+}
