@@ -8,7 +8,7 @@
         "Tế bào thần kinh và tế bào thần kinh đệm",
         "Tế bào cơ và tế bào sụn"
       ],
-      "Ans": 0,
+      "Ans": 1,
       "Explantion": "Mô máu bao gồm huyết tương và các tế bào máu (hồng cầu, bạch cầu, tiểu cầu)."
     },
     {
@@ -19,7 +19,7 @@
         "Tế bào cơ vân, tế bào cơ tim, tế bào cơ trơn",
         "Tế bào sụn, tế bào xương, tế bào mỡ"
       ],
-      "Ans": 0,
+      "Ans": 1,
       "Explantion": "Các dòng tế bào máu bao gồm hồng cầu, bạch cầu và tiểu cầu."
     },
     {
@@ -30,7 +30,7 @@
         "Dung tích hồng cầu",
         "Số lượng tiểu cầu trong máu"
       ],
-      "Ans": 1,
+      "Ans": 2,
       "Explantion": "Hematocrit (Hct) là dung tích hồng cầu."
     },
     {
