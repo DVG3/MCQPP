@@ -8,7 +8,7 @@
         "Tế bào cơ và tế bào máu",
         "Tế bào nội tiết và tế bào ngoại tiết"
       ],
-      "Ans": 0,
+      "Ans": 1,
       "Explantion": "Mô thần kinh bao gồm hai loại tế bào chính: tế bào thần kinh (neuron) và tế bào thần kinh đệm (neuroglia). [cite: 5]"
     },
     {
@@ -19,7 +19,7 @@
         "Tiếp nhận kích thích, xử lý thông tin và điều hòa hoạt động của các cơ quan",
         "Bài tiết hormone và điều hòa quá trình sinh sản"
       ],
-      "Ans": 1,
+      "Ans": 2,
       "Explantion": "Hệ thần kinh có chức năng tiếp nhận kích thích, xử lý thông tin và điều hòa hoạt động của các cơ quan để thích ứng với môi trường. [cite: 3]"
     },
     {
@@ -30,7 +30,7 @@
         "Synapse",
         "Sợi thần kinh"
       ],
-      "Ans": 0,
+      "Ans": 1,
       "Explantion": "Neuron, hay tế bào thần kinh, là đơn vị cấu trúc và chức năng cơ bản của mô thần kinh. [cite: 5, 6]"
     },
     {
