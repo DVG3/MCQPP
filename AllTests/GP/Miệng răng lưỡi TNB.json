@@ -1,0 +1,202 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Miệng là phần đầu tiên của hệ nào?",
+      "Choices": ["Hệ hô hấp", "Hệ tiêu hóa", "Hệ tuần hoàn", "Hệ thần kinh"],
+      "Ans": 1,
+      "Explantion": "Miệng là phần đầu tiên của hệ tiêu hóa, nơi bắt đầu quá trình tiêu hóa thức ăn."
+    },
+    {
+      "Question": "Khẩu cái cứng được cấu tạo bởi những xương nào?",
+      "Choices": ["Xương hàm trên và xương trán", "Xương hàm trên và mảnh ngang xương khẩu cái", "Xương thái dương và xương chẩm", "Xương mũi và xương gò má"],
+      "Ans": 1,
+      "Explantion": "Khẩu cái cứng được cấu tạo bởi xương hàm trên và mảnh ngang xương khẩu cái."
+    },
+    {
+      "Question": "Răng nào dùng để xé thức ăn?",
+      "Choices": ["Răng cửa", "Răng nanh", "Răng hàm bé", "Răng hàm lớn"],
+      "Ans": 1,
+      "Explantion": "Răng nanh có hình tháp 4 cạnh, đỉnh nhọn, dùng để xé thức ăn."
+    },
+    {
+      "Question": "Răng hàm lớn ở hàm trên thường có bao nhiêu chân?",
+      "Choices": ["1 chân", "2 chân", "3 chân", "4 chân"],
+      "Ans": 2,
+      "Explantion": "Răng hàm lớn ở hàm trên thường có 3 chân (hai ngoài và một trong)."
+    },
+    {
+      "Question": "Lưỡi được bao phủ bởi gì?",
+      "Choices": ["Da", "Niêm mạc", "Lông", "Xương"],
+      "Ans": 1,
+      "Explantion": "Lưỡi được bao phủ bởi niêm mạc và có nhiều nhú giúp cảm nhận vị giác."
+    },
+    {
+      "Question": "Tuyến nước bọt lớn nhất là tuyến nào?",
+      "Choices": ["Tuyến dưới lưỡi", "Tuyến dưới hàm", "Tuyến mang tai", "Tuyến nước bọt phụ"],
+      "Ans": 2,
+      "Explantion": "Tuyến nước bọt mang tai là tuyến lớn nhất trong các tuyến nước bọt."
+    },
+    {
+      "Question": "Ống tuyến mang tai đổ vào miệng đối diện với răng nào?",
+      "Choices": ["Răng cửa", "Răng nanh", "Răng hàm bé", "Răng hàm lớn thứ 2"],
+      "Ans": 3,
+      "Explantion": "Ống tuyến mang tai đổ vào miệng qua một lỗ nhỏ đối diện với răng hàm lớn thứ 2."
+    },
+    {
+      "Question": "Tuyến nước bọt dưới lưỡi có hình dạng gì?",
+      "Choices": ["Hình tròn", "Hình bầu dục", "Hình vuông", "Hình tam giác"],
+      "Ans": 1,
+      "Explantion": "Tuyến nước bọt dưới lưỡi có hình bầu dục và là tuyến nhỏ nhất trong các tuyến nước bọt."
+    },
+    {
+      "Question": "Thần kinh nào chi phối vận động cho lưỡi?",
+      "Choices": ["Thần kinh mặt (VII)", "Thần kinh hạ thiệt (XII)", "Thần kinh thiệt hầu (IX)", "Thần kinh lang thang (X)"],
+      "Ans": 1,
+      "Explantion": "Thần kinh hạ thiệt (XII) chi phối vận động cho lưỡi."
+    },
+    {
+      "Question": "Vòng Waldeyer bao gồm các hạnh nhân nào?",
+      "Choices": ["Hạnh nhân khẩu cái, hạnh nhân lưỡi, hạnh nhân hầu, hạnh nhân vòi", "Hạnh nhân khẩu cái, hạnh nhân hầu, hạnh nhân vòi", "Hạnh nhân lưỡi, hạnh nhân hầu, hạnh nhân vòi", "Hạnh nhân khẩu cái, hạnh nhân lưỡi, hạnh nhân vòi"],
+      "Ans": 0,
+      "Explantion": "Vòng Waldeyer bao gồm hạnh nhân khẩu cái, hạnh nhân lưỡi, hạnh nhân hầu và hạnh nhân vòi."
+    },
+    {
+      "Question": "Răng sữa có công thức nào sau đây?",
+      "Choices": ["2 + 1 + 2", "2 + 1 + 2 + 3", "1 + 1 + 1 + 1", "3 + 2 + 1"],
+      "Ans": 0,
+      "Explantion": "Răng sữa có công thức 2 răng cửa + 1 răng nanh + 2 răng hàm (2 + 1 + 2)."
+    },
+    {
+      "Question": "Chất nào bao bọc ngà răng ở thân răng?",
+      "Choices": ["Cement", "Men răng", "Xương", "Tủy răng"],
+      "Ans": 1,
+      "Explantion": "Men răng bao bọc ngà răng ở thân răng, trong khi cement bao bọc ngà răng ở chân răng."
+    },
+    {
+      "Question": "Răng hàm lớn dưới thường có bao nhiêu chân?",
+      "Choices": ["1 chân", "2 chân", "3 chân", "4 chân"],
+      "Ans": 1,
+      "Explantion": "Răng hàm lớn dưới thường có 2 chân (trước và sau)."
+    },
+    {
+      "Question": "Cơ nào không phải là cơ ngoại lai của lưỡi?",
+      "Choices": ["Cơ cầm lưỡi", "Cơ móng lưỡi", "Cơ trâm lưỡi", "Cơ dọc lưỡi trên"],
+      "Ans": 3,
+      "Explantion": "Cơ dọc lưỡi trên là cơ nội tại, không phải cơ ngoại lai của lưỡi."
+    },
+    {
+      "Question": "Tuyến nước bọt dưới hàm nằm ở đâu?",
+      "Choices": ["Trong tam giác dưới hàm", "Dưới lưỡi", "Trong xoang hàm", "Gần tuyến mang tai"],
+      "Ans": 0,
+      "Explantion": "Tuyến nước bọt dưới hàm nằm trong tam giác dưới hàm ở mặt trong xương hàm dưới."
+    },
+    {
+      "Question": "Thần kinh nào chi phối cảm giác cho 2/3 trước lưỡi?",
+      "Choices": ["Thần kinh lưỡi (V3)", "Thần kinh hạ thiệt (XII)", "Thần kinh thiệt hầu (IX)", "Thần kinh mặt (VII)"],
+      "Ans": 0,
+      "Explantion": "Thần kinh lưỡi (nhánh của dây thần kinh hàm dưới V3) chi phối cảm giác cho 2/3 trước lưỡi."
+    },
+    {
+      "Question": "Răng khôn là tên gọi khác của răng nào?",
+      "Choices": ["Răng cửa", "Răng nanh", "Răng hàm lớn cuối cùng", "Răng hàm bé"],
+      "Ans": 2,
+      "Explantion": "Răng khôn là tên gọi khác của răng hàm lớn cuối cùng, thường mọc muộn nhất."
+    },
+    {
+      "Question": "Chức năng chính của răng hàm lớn là gì?",
+      "Choices": ["Cắn thức ăn", "Xé thức ăn", "Nghiền nát thức ăn", "Nhai nhẹ"],
+      "Ans": 2,
+      "Explantion": "Răng hàm lớn có thân răng lớn và nhiều mấu, dùng để nghiền nát thức ăn."
+    },
+    {
+      "Question": "Tuyến nước bọt nào có nhiều ống tiết phụ?",
+      "Choices": ["Tuyến mang tai", "Tuyến dưới hàm", "Tuyến dưới lưỡi", "Tuyến nước bọt phụ"],
+      "Ans": 2,
+      "Explantion": "Tuyến nước bọt dưới lưỡi có từ 5 đến 15 ống tiết phụ đổ ra ở nếp dưới lưỡi."
+    },
+    {
+      "Question": "Động mạch lưỡi xuất phát từ động mạch nào?",
+      "Choices": ["Động mạch cảnh trong", "Động mạch cảnh ngoài", "Động mạch mặt", "Động mạch thái dương"],
+      "Ans": 1,
+      "Explantion": "Động mạch lưỡi xuất phát từ động mạch cảnh ngoài, đi vào tam giác hàm móng."
+    },
+    {
+      "Question": "Vị giác đắng được cảm nhận chủ yếu ở vùng nào của lưỡi?",
+      "Choices": ["Đầu lưỡi", "Mép lưỡi", "Cuống lưỡi", "Mặt dưới lưỡi"],
+      "Ans": 2,
+      "Explantion": "Vị giác đắng được cảm nhận chủ yếu ở cuống lưỡi, nơi có nhiều nhú dạng đài."
+    },
+    {
+      "Question": "Cơ nào nâng màn khẩu cái?",
+      "Choices": ["Cơ căng màn khẩu cái", "Cơ nâng màn khẩu cái", "Cơ lưỡi gà", "Cơ khẩu cái hầu"],
+      "Ans": 1,
+      "Explantion": "Cơ nâng màn khẩu cái là một trong 5 cơ của khẩu cái mềm, có chức năng nâng màn khẩu cái."
+    },
+    {
+      "Question": "Răng nào có chân răng dài nhất?",
+      "Choices": ["Răng cửa", "Răng nanh", "Răng hàm bé", "Răng hàm lớn"],
+      "Ans": 1,
+      "Explantion": "Răng nanh có chân răng dài nhất so với các răng khác."
+    },
+    {
+      "Question": "Tuyến nước bọt nào nằm gần xoang hàm trên?",
+      "Choices": ["Tuyến mang tai", "Tuyến dưới hàm", "Tuyến dưới lưỡi", "Tuyến nước bọt phụ"],
+      "Ans": 0,
+      "Explantion": "Tuyến mang tai nằm gần xoang hàm trên, nên nhiễm trùng tuyến này có thể lan sang xoang."
+    },
+    {
+      "Question": "Một bệnh nhân bị đau nhức răng hàm lớn trên, kèm theo triệu chứng đau đầu và chảy dịch mũi một bên. Nguyên nhân có thể là gì?",
+      "Choices": ["Viêm tủy răng", "Viêm xoang hàm do nhiễm trùng răng", "Sâu răng", "Viêm nướu"],
+      "Ans": 1,
+      "Explantion": "Răng hàm lớn trên có chân răng nằm sát xoang hàm, nên nhiễm trùng răng có thể gây viêm xoang hàm."
+    },
+    {
+      "Question": "Bệnh nhân bị khô miệng, khó nuốt, khám thấy sưng tuyến mang tai. Chẩn đoán có thể là gì?",
+      "Choices": ["Viêm tuyến nước bọt mang tai", "Viêm họng", "Viêm dạ dày", "Viêm amidan"],
+      "Ans": 0,
+      "Explantion": "Triệu chứng khô miệng và sưng tuyến mang tai gợi ý viêm tuyến nước bọt mang tai."
+    },
+    {
+      "Question": "Bệnh nhân bị đứt dây thần kinh lưỡi (V3) sẽ mất cảm giác ở vùng nào?",
+      "Choices": ["2/3 trước lưỡi", "1/3 sau lưỡi", "Toàn bộ lưỡi", "Mặt dưới lưỡi"],
+      "Ans": 0,
+      "Explantion": "Dây thần kinh lưỡi (V3) chi phối cảm giác cho 2/3 trước lưỡi, nên tổn thương sẽ gây mất cảm giác ở vùng này."
+    },
+    {
+      "Question": "Bệnh nhân bị liệt dây thần kinh hạ thiệt (XII) sẽ có biểu hiện gì?",
+      "Choices": ["Liệt mặt", "Liệt lưỡi (lưỡi lệch sang bên liệt)", "Khó nuốt", "Mất vị giác"],
+      "Ans": 1,
+      "Explantion": "Dây thần kinh hạ thiệt (XII) chi phối vận động lưỡi, nên liệt sẽ khiến lưỡi lệch sang bên tổn thương."
+    },
+    {
+      "Question": "Bệnh nhân bị sưng đau vùng dưới lưỡi, khám thấy sưng nếp dưới lưỡi. Chẩn đoán có thể là gì?",
+      "Choices": ["Viêm tuyến dưới lưỡi", "Viêm amidan", "Viêm họng", "Viêm xoang"],
+      "Ans": 0,
+      "Explantion": "Triệu chứng sưng đau vùng dưới lưỡi và nếp dưới lưỡi gợi ý viêm tuyến nước bọt dưới lưỡi."
+    },
+    {
+      "Question": "Bệnh nhân bị chấn thương vùng mặt, sau đó thấy nước bọt chảy ra từ vết thương. Tổn thương có thể ở đâu?",
+      "Choices": ["Ống tuyến mang tai", "Ống tuyến dưới hàm", "Ống tuyến dưới lưỡi", "Tuyến nước bọt phụ"],
+      "Ans": 0,
+      "Explantion": "Nước bọt chảy ra từ vết thương gợi ý tổn thương ống tuyến mang tai, vì đây là tuyến lớn nhất và dễ bị tổn thương do chấn thương mặt."
+    },
+    {
+      "Question": "Bệnh nhân bị đau răng hàm lớn dưới, khám thấy sưng vùng góc hàm. Nguyên nhân có thể là gì?",
+      "Choices": ["Viêm tủy răng", "Áp xe quanh chân răng", "Viêm tuyến dưới hàm", "Viêm nướu"],
+      "Ans": 2,
+      "Explantion": "Sưng vùng góc hàm gợi ý viêm tuyến nước bọt dưới hàm, do tuyến này nằm gần răng hàm lớn dưới."
+    },
+    {
+      "Question": "Bệnh nhân bị khó phát âm các phụ âm đầu lưỡi. Tổn thương có thể ở đâu?",
+      "Choices": ["Dây thần kinh mặt (VII)", "Dây thần kinh hạ thiệt (XII)", "Dây thần kinh thiệt hầu (IX)", "Dây thần kinh lưỡi (V3)"],
+      "Ans": 1,
+      "Explantion": "Khó phát âm phụ âm đầu lưỡi gợi ý tổn thương dây thần kinh hạ thiệt (XII), chi phối vận động lưỡi."
+    },
+    {
+      "Question": "Bệnh nhân bị chảy máu nhiều sau nhổ răng. Mạch máu nào dễ bị tổn thương nhất?",
+      "Choices": ["Động mạch lưỡi", "Động mạch mặt", "Động mạch dưới lưỡi", "Động mạch răng dưới"],
+      "Ans": 3,
+      "Explantion": "Động mạch răng dưới là nhánh của động mạch hàm dưới, dễ bị tổn thương khi nhổ răng hàm dưới."
+    }
+  ]
+}

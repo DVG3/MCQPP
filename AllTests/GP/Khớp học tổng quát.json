@@ -1,0 +1,214 @@
+{
+  "AllQuestions": [
+    {
+      "Question": "Định nghĩa khớp là gì?",
+      "Choices": ["Nơi hai cơ bám vào xương.", "Nơi hai xương tiếp xúc với nhau.", "Nơi tiếp nối của 2 hay nhiều xương, giúp cơ thể cử động dưới tác động của sự co cơ.", "Nơi dây chằng kết nối xương với xương."],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, khớp là nơi tiếp nối của 2 hay nhiều xương, giúp cơ thể cử động dưới tác động của sự co cơ."
+    },
+    {
+      "Question": "Theo chức năng, khớp được phân loại thành những loại nào?",
+      "Choices": ["Khớp sợi, khớp sụn, khớp hoạt dịch", "Khớp bất động, khớp bán động, khớp động", "Khớp phẳng, khớp bản lề, khớp xoay", "Khớp đơn trục, khớp lưỡng trục, khớp đa trục"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, khớp được phân loại theo chức năng gồm khớp bất động, khớp bán động, khớp động."
+    },
+    {
+      "Question": "Theo cấu trúc, khớp được phân loại thành những loại nào?",
+      "Choices": ["Khớp bất động, khớp bán động, khớp động", "Khớp sợi, khớp sụn, khớp hoạt dịch", "Khớp phẳng, khớp bản lề, khớp xoay", "Khớp đơn trục, khớp lưỡng trục, khớp đa trục"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, khớp được phân loại theo cấu trúc gồm khớp sợi, khớp sụn, khớp hoạt dịch."
+    },
+    {
+      "Question": "Khớp sợi được tạo ra do sự liên kết của loại mô nào?",
+      "Choices": ["Mô sụn", "Mô cơ", "Mô liên kết", "Mô biểu bì"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, khớp sợi được tạo ra do sự liên kết của các sợi mô liên kết."
+    },
+    {
+      "Question": "Khớp dạng đường ráp (suture) chỉ xuất hiện ở đâu?",
+      "Choices": ["Giữa các xương dài", "Giữa các đốt sống", "Giữa các xương của hộp sọ", "Giữa xương sườn và xương ức"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, khớp dạng đường ráp chỉ xuất hiện giữa các xương của hộp sọ."
+    },
+    {
+      "Question": "Theo chức năng, khớp dạng đường ráp được xếp loại là khớp gì?",
+      "Choices": ["Khớp động", "Khớp bán động", "Khớp bất động", "Không có cử động"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, khớp dạng đường ráp được xếp loại theo chức năng là 1 khớp bất động."
+    },
+    {
+      "Question": "Màng gian cốt chính trong cơ thể nằm ở đâu?",
+      "Choices": ["Giữa xương đùi và xương chày", "Giữa xương cánh tay và xương trụ", "Giữa xương trụ và xương quay ở cẳng tay; giữa xương chày và xương mác ở cẳng chân", "Giữa các xương cổ tay"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, có 2 màng gian cốt chính trong cơ thể là giữa xương trụ và xương quay ở cẳng tay và giữa xương chày và xương mác ở cẳng chân."
+    },
+    {
+      "Question": "Khớp dạng màng gian cốt cho phép chuyển động mức độ nào?",
+      "Choices": ["Bất động", "Chuyển động nhẹ (bán động)", "Chuyển động đáng kể (động)", "Xoay tròn hoàn toàn"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, khớp dạng màng gian cốt cho phép chuyển động nhẹ (khớp bán động)."
+    },
+    {
+      "Question": "Khớp sụn có đặc điểm gì về khoang hoạt dịch?",
+      "Choices": ["Có khoang hoạt dịch lớn", "Có khoang hoạt dịch nhỏ", "Không có khoang hoạt dịch", "Khoang hoạt dịch chứa đầy khí"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, khớp sụn là khớp không có khoang hoạt dịch."
+    },
+    {
+      "Question": "Các xương trong khớp sụn nối với nhau bằng gì?",
+      "Choices": ["Dây chằng", "Màng liên kết", "Sụn", "Bao khớp"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, khớp sụn không có khoang hoạt dịch, các xương nối với nhau bằng sụn."
+    },
+    {
+      "Question": "Khớp sụn được chia làm mấy loại?",
+      "Choices": ["1", "2", "3", "4"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, khớp sụn được chia làm 2 loại: Khớp sụn trong (Synchondrosis) và khớp sụn sợi (Symphysis)."
+    },
+    {
+      "Question": "Khớp hoạt dịch có đặc điểm gì về khoang hoạt dịch?",
+      "Choices": ["Không có khoang hoạt dịch", "Chứa chất lỏng hoạt dịch", "Khoang hoạt dịch chứa đầy sụn", "Khoang hoạt dịch chỉ có ở trẻ em"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, khớp hoạt dịch chứa chất lỏng hoạt dịch."
+    },
+    {
+      "Question": "Xương ở khớp hoạt dịch được bao phủ bởi lớp sụn gì?",
+      "Choices": ["Sụn sợi", "Sụn chun", "Sụn hyaline (sụn khớp)", "Sụn bất kỳ"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, xương ở khớp hoạt dịch được bao phủ bởi một lớp sụn hyaline được gọi là sụn khớp."
+    },
+    {
+      "Question": "Lớp sụn khớp (sụn hyaline) có chức năng gì?",
+      "Choices": ["Gắn kết các xương lại với nhau", "Làm bề mặt xương xù xì để tăng ma sát", "Làm bề mặt mềm, trơn láng để giảm ma sát", "Sản xuất dịch khớp"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, lớp sụn này có bề mặt mềm, trơn láng nhưng không gắn kết các xương lại với nhau."
+    },
+    {
+      "Question": "Hầu hết các khớp của bộ xương nào là khớp hoạt dịch?",
+      "Choices": ["Bộ xương đầu mặt", "Bộ xương thân mình", "Bộ xương chi", "Bộ xương phụ"],
+      "Ans": 3,
+      "Explantion": "Theo tài liệu, hầu hết các khớp của bộ xương phụ là khớp hoạt dịch."
+    },
+    {
+      "Question": "Bao khớp của khớp hoạt dịch gồm mấy lớp?",
+      "Choices": ["1 lớp", "2 lớp", "3 lớp", "4 lớp"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, bao khớp gồm có 2 lớp: 1 màng xơ ở bên ngoài và 1 màng hoạt dịch bên trong."
+    },
+    {
+      "Question": "Thành phần chính của hoạt dịch là gì?",
+      "Choices": ["Nước muối", "Protein", "Axit hyaluronic", "Canxi"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, hoạt dịch gồm axit hyaluronic được tiết ra bởi các tế bào nguyên bào sợi."
+    },
+    {
+      "Question": "Chức năng của hoạt dịch bao gồm:",
+      "Choices": ["Làm tăng ma sát của khớp", "Chỉ cung cấp oxy cho sụn", "Giảm ma sát của khớp, hấp thụ chấn động, cung cấp dinh dưỡng và loại bỏ chất thải", "Chỉ loại bỏ carbon dioxide"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, chức năng của hoạt dịch bao gồm việc giảm ma sát của khớp, hấp thụ những chấn động, cung cấp oxy và chất dinh dưỡng để loại bỏ carbon dioxide và các chất thải trao đổi chất từ các tế bào sụn trong khớp."
+    },
+    {
+      "Question": "Đĩa khớp hay sụn chêm là cấu trúc bổ sung nào trong khớp?",
+      "Choices": ["Dây chằng ngoài khớp", "Dây chằng trong khớp", "Đĩa sụn nằm giữa các mặt khớp", "Bao gân"],
+      "Ans": 2,
+      "Explantion": "Tài liệu đề cập đến Đĩa khớp hay sụn chêm như một cấu trúc nằm trong phần dây chằng, dây chằng trong khớp, gợi ý đây là cấu trúc sụn bên trong khớp."
+    },
+    {
+      "Question": "Bao gân là những túi hoạt dịch dạng gì?",
+      "Choices": ["Dạng túi", "Dạng ống", "Dạng dẹt", "Dạng tròn"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, bao gân là những túi hoạt dịch dạng ống, quấn xung quanh những gân chịu sự ma sát đáng kể."
+    },
+    {
+      "Question": "Túi hoạt dịch có cấu trúc dạng gì và được đặt ở đâu để giảm ma sát?",
+      "Choices": ["Dạng ống, quấn quanh gân", "Dạng túi, đặt ở các vị trí chiến lược", "Dạng dẹt, nằm giữa xương", "Dạng tròn, bên trong xương"],
+      "Ans": 1,
+      "Explantion": "Theo tài liệu, túi hoạt dịch có cấu trúc dạng túi, được đặt ở các vị trí chiến lược làm giảm sự ma sát ở vài khớp."
+    },
+    {
+      "Question": "Khớp phẳng (Planar joints) cho phép cử động chủ yếu theo kiểu gì?",
+      "Choices": ["Gấp - duỗi", "Xoay", "Trượt", "Dạng - khép"],
+      "Ans": 2,
+      "Explantion": "Tên gọi 'khớp phẳng' và hình ảnh minh họa gợi ý cử động trượt là chủ yếu."
+    },
+    {
+      "Question": "Khớp bản lề (Hinge joints) cho phép cử động chủ yếu theo kiểu gì?",
+      "Choices": ["Gấp - duỗi", "Xoay", "Trượt", "Dạng - khép"],
+      "Ans": 0,
+      "Explantion": "Tên gọi 'khớp bản lề' và hình ảnh minh họa gợi ý cử động gấp - duỗi là chủ yếu."
+    },
+    {
+      "Question": "Khớp xoay (Pivot joints) cho phép cử động chủ yếu theo kiểu gì?",
+      "Choices": ["Gấp - duỗi", "Xoay", "Trượt", "Dạng - khép"],
+      "Ans": 1,
+      "Explantion": "Tên gọi 'khớp xoay' và hình ảnh minh họa gợi ý cử động xoay là chủ yếu."
+    },
+    {
+      "Question": "Khớp lồi cầu (Condyloid joints) cho phép những cử động nào?",
+      "Choices": ["Trượt và xoay", "Gấp - duỗi và dạng - khép", "Xoay và dạng - khép", "Gấp - duỗi và xoay"],
+      "Ans": 1,
+      "Explantion": "Khớp lồi cầu thường cho phép cử động gấp/duỗi và dạng/khép, là khớp lưỡng trục."
+    },
+    {
+      "Question": "Một người bị chấn thương khi chơi thể thao và các mặt khớp ở vai bị di lệch hoàn toàn. Tình trạng này được gọi là gì?",
+      "Choices": ["Viêm khớp", "Thoái hóa khớp", "Trật khớp", "Gãy xương"],
+      "Ans": 2,
+      "Explantion": "Theo tài liệu, trật khớp là sự di lệch hoàn toàn hay không hoàn toàn các mặt khớp với nhau, nguyên nhân thường gặp là chấn thương."
+    },
+    {
+      "Question": "Việc tiêm axit hyaluronic vào khớp gối của bệnh nhân thoái hóa khớp nhằm mục đích chính là gì?",
+      "Choices": ["Giảm sưng", "Kích thích mọc xương mới", "Bổ sung dịch khớp để giảm ma sát và hấp thụ chấn động", "Giảm đau bằng cách gây tê"],
+      "Ans": 2,
+      "Explantion": "Hoạt dịch chứa axit hyaluronic có chức năng giảm ma sát, hấp thụ chấn động và cung cấp dinh dưỡng cho sụn khớp. Tiêm bổ sung axit hyaluronic giúp cải thiện chức năng này trong trường hợp thoái hóa khớp."
+    },
+    {
+      "Question": "Trong phẫu thuật thay khớp háng, bác sĩ sẽ thay thế những phần nào của khớp?",
+      "Choices": ["Chỉ thay sụn khớp", "Chỉ thay dây chằng", "Thay thế các mặt khớp của xương đùi và xương chậu bằng vật liệu nhân tạo", "Thay thế toàn bộ xương đùi"],
+      "Ans": 2,
+      "Explantion": "Phẫu thuật thay khớp liên quan đến việc thay thế các bề mặt khớp bị tổn thương bằng các bộ phận nhân tạo. Trong thay khớp háng, các mặt khớp của xương đùi và xương chậu được thay thế."
+    },
+    {
+      "Question": "Bệnh Gout (Gút) thường gây viêm và đau ở khớp, đặc biệt là khớp ngón chân cái. Đây là một dạng bệnh lý khớp liên quan đến sự tích tụ của chất gì?",
+      "Choices": ["Canxi", "Acid lactic", "Acid uric", "Collagen"],
+      "Ans": 2,
+      "Explantion": "Bệnh Gout là một dạng viêm khớp do sự tích tụ tinh thể urat (từ acid uric) trong khớp."
+    },
+    {
+      "Question": "Bệnh viêm khớp dạng thấp (Rheumatoid Arthritis) là một bệnh tự miễn mạn tính ảnh hưởng đến khớp. Cơ chế chính gây tổn thương khớp trong bệnh này là gì?",
+      "Choices": ["Lão hóa sụn khớp", "Nhiễm trùng trực tiếp vào khớp", "Hệ miễn dịch tấn công màng hoạt dịch của khớp", "Chấn thương lặp đi lặp lại"],
+      "Ans": 2,
+      "Explantion": "Viêm khớp dạng thấp là bệnh tự miễn, trong đó hệ miễn dịch của cơ thể tấn công nhầm vào màng hoạt dịch của khớp, gây viêm, sưng và tổn thương khớp."
+    },
+    {
+      "Question": "Khi một người bị bong gân mắt cá chân, cấu trúc nào quanh khớp bị tổn thương chủ yếu?",
+      "Choices": ["Sụn khớp", "Dây chằng", "Xương", "Màng hoạt dịch"],
+      "Ans": 1,
+      "Explantion": "Bong gân là tình trạng tổn thương dây chằng, thường xảy ra khi khớp bị kéo căng quá mức hoặc vặn xoắn đột ngột."
+    },
+    {
+      "Question": "Tại sao người cao tuổi dễ bị thoái hóa khớp (Osteoarthritis)?",
+      "Choices": ["Do hệ miễn dịch suy yếu", "Do sụn khớp bị bào mòn theo thời gian", "Do thiếu canxi trầm trọng", "Do hoạt động thể chất quá mức trong quá khứ"],
+      "Ans": 1,
+      "Explantion": "Thoái hóa khớp là bệnh khớp phổ biến nhất ở người cao tuổi, đặc trưng bởi sự bào mòn và tổn thương sụn khớp theo thời gian do quá trình lão hóa và hao mòn tự nhiên."
+    },
+    {
+      "Question": "Cử động sấp và ngửa (pronation and supination) chủ yếu diễn ra ở khớp dạng gì giữa xương trụ và xương quay?",
+      "Choices": ["Khớp bản lề", "Khớp xoay", "Khớp lồi cầu", "Khớp phẳng"],
+      "Ans": 1,
+      "Explantion": "Cử động sấp và ngửa cổ tay là cử động xoay quanh một trục, diễn ra chủ yếu tại khớp xoay giữa đầu gần xương trụ và xương quay."
+    },
+    {
+      "Question": "Một bác sĩ phẫu thuật đang thực hiện phẫu thuật nội soi khớp gối để sửa chữa sụn chêm bị rách. Cấu trúc nào đang được can thiệp?",
+      "Choices": ["Bao khớp", "Dây chằng chéo trước", "Sụn chêm (đĩa khớp)", "Màng hoạt dịch"],
+      "Ans": 2,
+      "Explantion": "Sụn chêm (đĩa khớp) là cấu trúc sụn nằm trong khớp gối, thường bị tổn thương khi vặn xoắn hoặc chấn thương. Phẫu thuật nội soi khớp gối thường được thực hiện để sửa chữa hoặc cắt bỏ phần sụn chêm bị rách."
+    },
+    {
+      "Question": "Tại sao việc duy trì cân nặng hợp lý lại quan trọng đối với sức khỏe khớp, đặc biệt là khớp gối và khớp háng?",
+      "Choices": ["Giảm áp lực lên sụn khớp", "Tăng sản xuất hoạt dịch", "Cải thiện độ đàn hồi của dây chằng", "Tăng cường mật độ xương"],
+      "Ans": 0,
+      "Explantion": "Trọng lượng cơ thể dư thừa làm tăng áp lực đáng kể lên các khớp chịu trọng lực như khớp gối và khớp háng, đẩy nhanh quá trình bào mòn sụn khớp và dẫn đến thoái hóa khớp."
+    }
+  ]
+}
