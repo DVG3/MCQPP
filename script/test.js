@@ -22,26 +22,30 @@ function getQueryParam(param) {
 
 //let questions = [];
 
-if (file) {
-  // Load từ file trên server
-  fetch(file)
-    .then(res => res.json())
-    .then(data => {
-      questions = shuffle([...data["AllQuestions"]]);
+// if (file) {
+//   // Load từ file trên server
+//   fetch(file)
+//     .then(res => res.json())
+//     .then(data => {
+//       questions = shuffle([...data["AllQuestions"]]);
       
-      loadQuestion(currentQuestionIndex);
-    })
-    // .catch(err => {
-    //   alert("Không thể tải đề thi từ đường dẫn. Kiểm tra lại.");
-    // });
-} else if (localStorage.getItem("isUploadedTest") === "true") {
+//       loadQuestion(currentQuestionIndex);
+//     })
+//     // .catch(err => {
+//     //   alert("Không thể tải đề thi từ đường dẫn. Kiểm tra lại.");
+//     // });
+// } else 
+if (localStorage.getItem("isUploadedTest") === "true") {
   // Load từ file người dùng chọn
   const datat = JSON.parse(localStorage.getItem("uploadedTest"));
   questions = shuffle([...datat["AllQuestions"]]);
   loadQuestion(currentQuestionIndex);
   localStorage.removeItem("isUploadedTest");
 } else {
-  alert("Không có đề nào được chọn!");
+  const testData = JSON.parse(localStorage.getItem("testData"));
+  questions = shuffle([...testData["AllQuestions"]]);
+      
+  loadQuestion(currentQuestionIndex);
 }
 
 //loadQuestion(currentQuestionIndex);
