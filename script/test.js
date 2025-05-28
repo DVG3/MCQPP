@@ -88,7 +88,7 @@ function handleAnswer(selected, question) {
     btn.classList.add('pointer-events-none'); // disable click
   });
 
-  explanationDiv.innerHTML = `<strong>Giải thích:</strong> ${question.Explantion}`;
+  explanationDiv.innerHTML = `<strong>Giải thích:</strong> ${question.Explantion || question.Explanation}`;
   explanationDiv.classList.remove('hidden');
 
   userAnswers.push({
