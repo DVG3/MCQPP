@@ -27,7 +27,7 @@ data.answers.forEach((q, index) => {
     div.appendChild(span);
   });
   const exp = document.createElement("p");
-  exp.innerText = "Giải thích: " + q.explanation;
+  exp.innerText = "Giải thích: " + (question.Explantion || question.Explanation);//q.explanation;
   exp.className = "text-sm text-gray-600 mt-2";
   div.appendChild(exp);
   review.appendChild(div);
