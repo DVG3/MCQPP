@@ -27,7 +27,7 @@ data.answers.forEach((q, index) => {
     div.appendChild(span);
   });
   const exp = document.createElement("p");
-  exp.innerText = "Giải thích: " + (question.Explantion || question.Explanation);//q.explanation;
+  exp.innerText = "Giải thích: " + q.explanation;
   exp.className = "text-sm text-gray-600 mt-2";
   div.appendChild(exp);
   review.appendChild(div);
@@ -56,7 +56,7 @@ function renderResults() {
             ${String.fromCharCode(65 + idx)}. ${choice}
           </li>`).join("")}
       </ul>
-      <p class="text-sm text-gray-600 mt-2">📝 Giải thích: ${q.Explantion || "Không có"}</p>
+      <p class="text-sm text-gray-600 mt-2">📝 Giải thích: ${(q.Explanation||q.Explantion) || "Không có"}</p>
     `;
 
     container.appendChild(div);
