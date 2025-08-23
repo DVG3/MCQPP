@@ -22,20 +22,24 @@
   <p class="mb-4">Dán prompt sau vào ChatGPT, Claude, GPT-4 hoặc công cụ AI bạn dùng để tạo đề thi từ tài liệu học sau đó lưu thành file ".json" (ví dụ "dethi.json") và đưa lên web:</p>
   <div class="relative">
     <textarea id="aiPrompt" class="w-full h-60 p-3 text-sm font-mono border border-gray-300 rounded resize-none" readonly>
-Hãy đọc tài liệu sau đây và tạo một đề thi trắc nghiệm dưới dạng JSON theo đúng cấu trúc sau:
-
+Dựa vào file nội dung sau hãy tạo một đề thi trắc nghiệm. Đề thi phải gồm nhiều mức độ nhận thức theo thang Bloom:
+10 câu mức độ Nhớ,
+10 câu mức độ Hiểu,
+10 câu mức độ Vận dụng,
+5 Câu hỏi Vận dụng cao (Analyzing/Evaluating/Creating): đưa ra ca lâm sàng, dữ liệu xét nghiệm,  tình huống thực tế; yêu cầu sinh viên phân tích, đưa ra chẩn đoán, lựa chọn xử trí phù hợp.
+Đề thi phải dưới dạng JSON theo đúng cấu trúc sau:
 {
-  "AllQuestions": [
-    {
-      "Question": "Câu hỏi 1?",
-      "Choices": ["A", "B", "C", "D"],
-      "Ans": 0,
-      "Explanation": "Giải thích tại sao đáp án đó là đúng"
-    },
-    ...
-  ]
-}
+  "AllQuestions": [
+    {
+      "Question": "Câu hỏi 1?",
+      "Choices": ["A", "B", "C", "D"],
+      "Ans": 0,
+      "Explanation": "Giải thích tại sao đáp án đó là đúng"
+    },
 
+    ...
+  ]
+}
 Yêu cầu:
 - Mỗi câu hỏi có 4 phương án lựa chọn.
 - Chỉ có duy nhất một phương án đúng.
