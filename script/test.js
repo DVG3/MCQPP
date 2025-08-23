@@ -96,7 +96,7 @@ function handleAnswer(selected, question) {
     selected,
     correct: selected === question.Ans,
     correctAnswer: question.Ans,
-    explanation: question.Explantion,
+    explanation: question.Explantion || question.Explanation,//question.Explantion,
     choices: question.Choices
   });
 
