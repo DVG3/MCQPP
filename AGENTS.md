@@ -37,3 +37,8 @@
 - Custom CSS in `src/index.css` — CSS variables + TailwindCSS v4 `@theme` for colors
 - TailwindCSS v4: no `tailwind.config.js`, configure via `@theme` in CSS; `@import "tailwindcss"` at top of `index.css`
 - Plugin in `vite.config.js`: `tailwindcss()` before `react()`
+
+## Deploy to GitHub Pages
+Repo: `https://github.com/DVG3/MCQPP`
+Workflow: `.github/workflows/deploy.yml` — auto-deploys on push to `master`
+To enable: repo Settings → Pages → Source → **GitHub Actions
