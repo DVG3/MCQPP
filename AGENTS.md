@@ -37,8 +37,10 @@
 - Custom CSS in `src/index.css` — CSS variables + TailwindCSS v4 `@theme` for colors
 - TailwindCSS v4: no `tailwind.config.js`, configure via `@theme` in CSS; `@import "tailwindcss"` at top of `index.css`
 - Plugin in `vite.config.js`: `tailwindcss()` before `react()`
+- SPA routing via `HashRouter` (no server config needed for GitHub Pages)
+- Vite `base: '/MCQPP/'` in production (matches GitHub Pages subpath)
 
 ## Deploy to GitHub Pages
-Repo: `https://github.com/DVG3/MCQPP`
+Repo: `https://github.com/DVG3/MCQPP` (tên project: mcqpp)
 Workflow: `.github/workflows/deploy.yml` — auto-deploys on push to `master`
 To enable: repo Settings → Pages → Source → **GitHub Actions

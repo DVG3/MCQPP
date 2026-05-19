@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import { AppProvider } from './contexts/AppContext'
 import { ExamProvider } from './contexts/ExamContext'
 import ThemeToggle from './components/common/ThemeToggle'
@@ -32,12 +32,12 @@ export default function App() {
 
   return (
     <AppProvider>
-      <BrowserRouter>
+      <HashRouter>
         <ExamProvider>
           <div className="flex flex-col min-h-screen">
             <header className="flex items-center justify-between py-4 mb-6">
               <h1 className="text-2xl font-bold" style={{ color: 'var(--text)' }}>
-                🏥 MCQ Y Khoa
+                🏥 MCQPP
               </h1>
               <div className="flex items-center gap-2">
                 <ThemeToggle />
@@ -52,11 +52,11 @@ export default function App() {
               </Routes>
             </div>
             <footer className="text-center py-6 text-xs" style={{ color: 'var(--text-secondary)' }}>
-              MCQ Y Khoa — static frontend
+              MCQPP — Trắc nghiệm Y Khoa
             </footer>
           </div>
         </ExamProvider>
-      </BrowserRouter>
+      </HashRouter>
     </AppProvider>
   )
 }
