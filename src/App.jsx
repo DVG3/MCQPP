@@ -34,9 +34,14 @@ export default function App() {
     <AppProvider>
       <HashRouter>
         <ExamProvider>
+          {/* Background elements */}
+          <div className="animated-bg"></div>
+          <div className="blob blob-1"></div>
+          <div className="blob blob-2"></div>
+
           <div className="flex flex-col min-h-screen">
-            <header className="flex items-center justify-between py-4 mb-6">
-              <h1 className="text-2xl font-bold" style={{ color: 'var(--text)' }}>
+            <header className="flex items-center justify-between py-4 mb-6 relative z-10">
+              <h1 className="text-2xl font-bold tracking-tight">
                 🏥 MCQPP
               </h1>
               <div className="flex items-center gap-2">

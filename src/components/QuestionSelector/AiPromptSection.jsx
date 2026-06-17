@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const DEFAULT_PROMPT = `Bạn là một chuyên gia khảo thí và kiểm tra đánh giá Y khoa, có kinh nghiệm soạn đề thi MCQ theo chuẩn Thang đo Bloom (Bloom's Taxonomy) cho sinh viên Y khoa.
 
-Nhiệm vụ của bạn là dựa vào tài liệu được cung cấp (file/văn bản đính kèm) để biên soạn [SỐ LƯỢNG] câu hỏi trắc nghiệm (MCQ) Y khoa bằng TIẾNG VIỆT về chủ đề [TÊN CHỦ ĐỀ].
+Nhiệm vụ của bạn là dựa vào tài liệu được cung cấp (file/văn bản đính kèm) để biên soạn [SỐ LƯỢNG] câu hỏi trắc nghiệm (MCQ) Y khoa bằng TIẾNG VIỆT.
 
 ### 1. TIÊU CHUẨN NỘI DUNG THEO THANG BLOOM
 Hãy phân bổ [SỐ LƯỢNG] câu hỏi theo các cấp độ sau để đảm bảo tính phân hóa:
@@ -44,8 +44,14 @@ Tiến hành đọc file và tạo bộ đề ngay bây giờ.`
 
 export default function AiPromptSection() {
   const [open, setOpen] = useState(true)
-  const [prompt, setPrompt] = useState(DEFAULT_PROMPT)
+  const [quantity, setQuantity] = useState(50)
+  const [prompt, setPrompt] = useState(() => DEFAULT_PROMPT.replaceAll('[SỐ LƯỢNG]', '50'))
   const [copied, setCopied] = useState(false)
+
+  const handleQuantityChange = (val) => {
+    setQuantity(val)
+    setPrompt(DEFAULT_PROMPT.replaceAll('[SỐ LƯỢNG]', val))
+  }
 
   const handleCopy = async () => {
     try {
@@ -72,26 +78,47 @@ export default function AiPromptSection() {
   }
 
   return (
-    <div className="card" style={{ marginTop: '1rem' }}>
-      <div className="collapsible-header" onClick={() => setOpen(o => !o)}>
+    <div className="card relative overflow-hidden group" style={{ marginTop: '1rem', border: '1px solid var(--primary-light)' }}>
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-50 group-hover:opacity-100 transition-opacity duration-500"></div>
+      
+      <div className="collapsible-header relative z-10 bg-transparent border-none" onClick={() => setOpen(o => !o)}>
         <span className={`arrow ${open ? 'open' : ''}`}>▶</span>
-        <span>🧑‍⚕️ Tạo đề bằng AI</span>
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 font-bold text-lg">
+          ✨ Tạo đề bằng AI
+        </span>
       </div>
+      
       {open && (
-        <div className="collapsible-content">
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '0.5rem' }}>
+        <div className="collapsible-content relative z-10">
+          <p className="text-sm text-slate-500 dark:text-slate-400 mb-3 font-medium">
             Chỉnh sửa prompt bên dưới, sau đó copy và gửi cho AI (ChatGPT, Claude, Gemini...) để tạo đề thi.
           </p>
+
+          <div className="flex items-center gap-3 mb-4 bg-white/30 dark:bg-slate-900/30 p-3 rounded-xl border border-blue-100 dark:border-blue-900/30 w-fit">
+            <label className="text-sm font-semibold text-slate-700 dark:text-slate-300">
+              Số lượng câu hỏi:
+            </label>
+            <input
+              type="number"
+              min="1"
+              max="500"
+              value={quantity}
+              onChange={e => handleQuantityChange(e.target.value)}
+              className="w-24 px-3 py-1.5 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border border-blue-200 dark:border-blue-800/80 focus:border-blue-500 rounded-lg shadow-sm font-semibold text-slate-800 dark:text-slate-200 outline-none transition-colors"
+            />
+          </div>
+
           <textarea
             value={prompt}
             onChange={e => setPrompt(e.target.value)}
-            style={{ minHeight: '16rem', fontSize: '0.85rem' }}
+            style={{ minHeight: '16rem', fontSize: '0.9rem' }}
+            className="w-full bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm border-blue-200 dark:border-blue-900/50 focus:border-blue-500 rounded-xl p-4 shadow-inner"
           />
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem' }}>
-            <button className="btn btn-primary btn-sm" onClick={handleCopy}>
+          <div className="flex gap-3 mt-4">
+            <button className="btn btn-primary btn-sm flex-1" onClick={handleCopy}>
               {copied ? '✅ Đã copy!' : '📋 Copy Prompt'}
             </button>
-            <button className="btn btn-outline btn-sm" onClick={handlePasteToTab}>
+            <button className="btn btn-outline btn-sm flex-1" onClick={handlePasteToTab}>
               📥 Dán vào Paste JSON
             </button>
           </div>

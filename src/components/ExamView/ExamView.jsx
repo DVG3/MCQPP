@@ -54,16 +54,17 @@ export default function ExamView() {
     <div className="card">
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
         <span className="question-number">Câu {currentIndex + 1} / {totalQuestions}</span>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', width: '150px' }}>
           <div style={{
-            width: '8rem', height: '0.4rem', background: 'var(--border)', borderRadius: '0.2rem', overflow: 'hidden'
+            flex: 1, height: '0.5rem', background: 'var(--border)', borderRadius: '1rem', overflow: 'hidden', boxShadow: 'inset 0 1px 3px rgba(0,0,0,0.2)'
           }}>
             <div style={{
               width: `${(answeredCount / totalQuestions) * 100}%`, height: '100%',
-              background: 'var(--success)', borderRadius: '0.2rem', transition: 'width 0.3s'
+              background: 'linear-gradient(90deg, var(--success), #6ee7b7)', borderRadius: '1rem', transition: 'width 0.4s ease',
+              boxShadow: '0 0 10px var(--success)'
             }} />
           </div>
-          <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>{answeredCount}/{totalQuestions}</span>
+          <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', fontWeight: '700' }}>{answeredCount}/{totalQuestions}</span>
         </div>
         <button className={`bookmark-star ${isBookmarked ? '' : 'inactive'}`} onClick={() => toggleBookmark(currentIndex)}
           title={isBookmarked ? 'Bỏ đánh dấu' : 'Đánh dấu câu này'}>
@@ -71,32 +72,37 @@ export default function ExamView() {
         </button>
       </div>
 
-      <MarkdownRenderer content={q.Question} />
+      <div key={currentIndex} style={{ animation: 'fadeIn 0.5s ease-out' }}>
+        <MarkdownRenderer content={q.Question} />
 
-      <div className="choices">
-        {q.Choices.map((choice, idx) => {
-          let cls = 'choice-btn'
-          if (hasAnswered) {
-            cls += ' disabled'
-            if (idx === q.Ans) cls += ' correct'
-            else if (idx === selected && idx !== q.Ans) cls += ' wrong'
-            if (idx === selected) cls += ' selected'
-          }
-          return (
-            <button key={idx} className={cls} onClick={() => handleChoice(idx)}>
-              <span className="choice-label">{labelLetter(idx)}.</span>
-              {choice.replace(/^[A-D]\.\s*/, '')}
-            </button>
-          )
-        })}
-      </div>
-
-      {hasAnswered && q.Explanation && (
-        <div className="explanation">
-          <strong>Giải thích:</strong>
-          <div style={{ marginTop: '0.35rem', lineHeight: 1.7 }}>{q.Explanation}</div>
+        <div className="choices">
+          {q.Choices.map((choice, idx) => {
+            let cls = 'choice-btn'
+            if (hasAnswered) {
+              cls += ' disabled'
+              if (idx === q.Ans) cls += ' correct'
+              else if (idx === selected && idx !== q.Ans) cls += ' wrong'
+              if (idx === selected) cls += ' selected'
+            }
+            return (
+              <button key={idx} className={cls} onClick={() => handleChoice(idx)}>
+                <span className="choice-label">{labelLetter(idx)}</span>
+                <span className="ml-2">{choice.replace(/^[A-D]\.\s*/, '')}</span>
+              </button>
+            )
+          })}
         </div>
-      )}
+
+        {hasAnswered && q.Explanation && (
+          <div className="explanation relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-blue-400 to-purple-500"></div>
+            <strong className="text-primary block mb-2">💡 Giải thích:</strong>
+            <div style={{ lineHeight: 1.7 }} className="text-slate-700 dark:text-slate-300">
+              {q.Explanation}
+            </div>
+          </div>
+        )}
+      </div>
 
       <div className="exam-nav">
         <button className="btn btn-outline btn-sm" onClick={goPrev} disabled={currentIndex === 0}>

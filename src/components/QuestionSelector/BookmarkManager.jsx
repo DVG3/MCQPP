@@ -54,33 +54,37 @@ export default function BookmarkManager() {
       const result = validateQuestionJson(content)
       if (!result.valid) {
         alert('File không hợp lệ: ' + result.error)
+        e.target.value = ''
         return
       }
-      let bm = []
-      try {
-        const raw = localStorage.getItem(EXPORT_KEY)
-        if (raw) bm = JSON.parse(raw)
-      } catch {}
+      
+      const bm = bookmarks
       if (bm.length === 0) {
         alert('Không có câu đã đánh dấu nào để thêm')
+        e.target.value = ''
         return
       }
+      
       const existing = result.data.AllQuestions
       const merged = [...existing]
-      const existingQuestions = new Set(existing.map(q => q.Question))
+      
+      // Compare questions by stripping whitespace to avoid minor mismatches
+      const existingQuestions = new Set(existing.map(q => q.Question.trim()))
       let added = 0
       for (const b of bm) {
-        if (!existingQuestions.has(b.Question)) {
+        if (!existingQuestions.has(b.Question.trim())) {
           merged.push(b)
-          existingQuestions.add(b.Question)
+          existingQuestions.add(b.Question.trim())
           added++
         }
       }
-      const out = { AllQuestions: merged }
+      const out = { ...result.data, AllQuestions: merged }
       downloadJson(out, file.name.replace('.json', '') + '_merged')
       alert(`Đã thêm ${added} câu mới và tải về file đã gộp`)
     } catch (err) {
       alert('Lỗi: ' + err.message)
+    } finally {
+      e.target.value = ''
     }
   }
 
@@ -131,6 +135,10 @@ export default function BookmarkManager() {
             <button className="btn btn-outline btn-sm" onClick={exportBookmarks} disabled={bookmarks.length === 0}>
               📥 Xuất file
             </button>
+            <label className={`btn btn-accent btn-sm cursor-pointer ${bookmarks.length === 0 ? 'opacity-50 pointer-events-none' : ''}`} style={{ margin: 0, display: 'flex', alignItems: 'center' }}>
+              ➕ Thêm vào file
+              <input type="file" accept=".json" onChange={handleMerge} style={{ display: 'none' }} disabled={bookmarks.length === 0} />
+            </label>
             <button className="btn btn-danger btn-sm" onClick={deleteAllBookmarks} disabled={bookmarks.length === 0}>
               🗑️ Xóa tất cả
             </button>
@@ -198,9 +206,7 @@ export default function BookmarkManager() {
         ))
       )}
 
-      <hr style={{ border: 'none', borderTop: '1px solid var(--border)', margin: '1.25rem 0' }} />
-      <div className="section-title">Thêm câu đã đánh dấu vào file có sẵn</div>
-      <input type="file" accept=".json" onChange={handleMerge} />
+
     </div>
   )
 }

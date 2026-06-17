@@ -26,24 +26,7 @@ export function ExamProvider({ children }) {
     } catch {}
   }, [])
 
-  const syncExportStore = useCallback((bkm) => {
-    const qs = questionsRef.current
-    if (!qs) return
-    const exportData = Object.keys(bkm)
-      .map(Number)
-      .filter(i => qs[i])
-      .map(i => ({
-        Question: qs[i].Question,
-        Choices: qs[i].Choices,
-        Ans: qs[i].Ans,
-        Explanation: qs[i].Explanation,
-      }))
-    if (exportData.length > 0) {
-      localStorage.setItem(EXPORT_KEY, JSON.stringify(exportData))
-    } else {
-      localStorage.removeItem(EXPORT_KEY)
-    }
-  }, [])
+
 
   const startExam = useCallback((rawQuestions, doShuffle) => {
     const qs = doShuffle ? shuffle(rawQuestions) : [...rawQuestions]
@@ -70,16 +53,46 @@ export function ExamProvider({ children }) {
   const toggleBookmark = useCallback((index) => {
     setBookmarks(prev => {
       const next = { ...prev }
-      if (next[index]) {
-        delete next[index]
-      } else {
+      const isNowBookmarked = !next[index]
+      if (isNowBookmarked) {
         next[index] = true
+      } else {
+        delete next[index]
       }
-      syncExportStore(next)
+      
+      const qs = questionsRef.current
+      if (qs && qs[index]) {
+        const q = qs[index]
+        try {
+          const raw = localStorage.getItem(EXPORT_KEY)
+          let exportData = raw ? JSON.parse(raw) : []
+          if (!Array.isArray(exportData)) exportData = []
+          
+          if (isNowBookmarked) {
+            if (!exportData.find(ex => ex.Question === q.Question)) {
+              exportData.push({
+                Question: q.Question,
+                Choices: q.Choices,
+                Ans: q.Ans,
+                Explanation: q.Explanation,
+              })
+            }
+          } else {
+            exportData = exportData.filter(ex => ex.Question !== q.Question)
+          }
+          
+          if (exportData.length > 0) {
+            localStorage.setItem(EXPORT_KEY, JSON.stringify(exportData))
+          } else {
+            localStorage.removeItem(EXPORT_KEY)
+          }
+        } catch {}
+      }
+      
       localStorage.setItem(BOOKMARK_KEY, JSON.stringify(next))
       return next
     })
-  }, [syncExportStore])
+  }, [])
 
   const goNext = useCallback(() => {
     if (questions && currentIndex < questions.length - 1) {
