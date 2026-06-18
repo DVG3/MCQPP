@@ -4,6 +4,8 @@ const AppContext = createContext(null)
 
 export function AppProvider({ children }) {
   const [questions, setQuestions] = useState(null)
+  const [streamingConfig, setStreamingConfig] = useState(null)
+  const [latestAiExam, setLatestAiExam] = useState(null)
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('mcq-theme') || 'light'
   })
@@ -29,10 +31,13 @@ export function AppProvider({ children }) {
   }, [])
 
   const clearQuestions = useCallback(() => setQuestions(null), [])
+  const clearStreamingConfig = useCallback(() => setStreamingConfig(null), [])
 
   return (
     <AppContext.Provider value={{
       questions, setQuestions, clearQuestions,
+      streamingConfig, setStreamingConfig, clearStreamingConfig,
+      latestAiExam, setLatestAiExam,
       theme, toggleTheme,
       shuffleEnabled, toggleShuffle,
     }}>

@@ -5,17 +5,30 @@ import LocalFolderSource from './LocalFolderSource'
 import PasteJsonSource from './PasteJsonSource'
 import BookmarkManager from './BookmarkManager'
 import AiPromptSection from './AiPromptSection'
+import StreamingSource from './StreamingSource'
 
 const TABS = [
   { key: 'google', label: 'Google Drive' },
   { key: 'local', label: 'Từ máy tính' },
   { key: 'paste', label: 'Paste JSON' },
   { key: 'saved', label: 'Đã lưu' },
+  { key: 'streaming', label: 'Streaming AI' },
 ]
 
 export default function QuestionSelector() {
-  const { shuffleEnabled, toggleShuffle } = useApp()
-  const [activeTab, setActiveTab] = useState('google')
+  const { shuffleEnabled, toggleShuffle, latestAiExam } = useApp()
+  const [activeTab, setActiveTab] = useState('streaming')
+
+  const handleDownloadAiExam = () => {
+    if (!latestAiExam || latestAiExam.length === 0) return
+    const blob = new Blob([JSON.stringify({ AllQuestions: latestAiExam }, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `AI_Exam_${new Date().getTime()}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
 
   return (
     <div className="flex flex-col gap-5">
@@ -49,8 +62,18 @@ export default function QuestionSelector() {
           {activeTab === 'local' && <LocalFolderSource />}
           {activeTab === 'paste' && <PasteJsonSource />}
           {activeTab === 'saved' && <BookmarkManager />}
+          {activeTab === 'streaming' && <StreamingSource />}
         </div>
       </div>
+
+      {latestAiExam && latestAiExam.length > 0 && (
+        <button 
+          className="btn btn-success w-full py-3 shadow-lg flex items-center justify-center gap-2"
+          onClick={handleDownloadAiExam}
+        >
+          ⬇️ Tải xuống bộ đề AI vừa tạo ({latestAiExam.length} câu)
+        </button>
+      )}
 
       <AiPromptSection />
     </div>

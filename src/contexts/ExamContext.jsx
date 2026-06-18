@@ -120,12 +120,28 @@ export function ExamProvider({ children }) {
     localStorage.removeItem(BOOKMARK_KEY)
   }, [])
 
+  const appendQuestions = useCallback((newQs) => {
+    setQuestionsState(prev => prev ? [...prev, ...newQs] : [...newQs])
+  }, [])
+
+  const updateQuestions = useCallback((newQs) => {
+    setQuestionsState(newQs)
+  }, [])
+
+  const startNextBatchTransition = useCallback((placeholders) => {
+    setQuestionsState(prev => {
+      const nextQs = prev ? [...prev, ...placeholders] : [...placeholders]
+      setCurrentIndex(prev ? prev.length : 0)
+      return nextQs
+    })
+  }, [])
+
   return (
     <ExamContext.Provider value={{
       questions, currentIndex, answers, bookmarks,
       totalQuestions, answeredCount, isFinished,
       startExam, setAnswer, toggleBookmark,
-      goNext, goPrev, goTo, resetExam,
+      goNext, goPrev, goTo, resetExam, appendQuestions, updateQuestions, startNextBatchTransition,
     }}>
       {children}
     </ExamContext.Provider>
